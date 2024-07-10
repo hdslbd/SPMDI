@@ -1,0 +1,1001 @@
+Patient_ID,Age,Gender,Diet_Type,Smoking_Status,Physical_Activity_Level,Family_History_of_Stroke,Hypertension,Diabetes,Height_cm,Weight_kg,Region,BMI,BMI_Category,Stroke_Risk
+1,69,Male,Balanced,Non-smoker,Moderate,Yes,No,No,158,90,Urban,36.1,Obesity,1
+2,32,Male,Vegetarian,Non-smoker,High,Yes,Yes,Yes,146,85,Rural,39.9,Obesity,1
+3,89,Female,High Fat,Non-smoker,High,Yes,Yes,No,171,49,Rural,16.8,Underweight,1
+4,78,Male,Balanced,Non-smoker,High,Yes,Yes,No,148,58,Urban,26.5,Overweight,1
+5,38,Male,Vegetarian,Smoker,Moderate,No,No,No,157,81,Rural,32.9,Obesity,1
+6,41,Male,Balanced,Non-smoker,Low,No,No,No,169,80,Urban,28.0,Overweight,1
+7,20,Male,High Fat,Smoker,Low,No,Yes,No,159,103,Rural,40.7,Obesity,1
+8,39,Female,Vegetarian,Smoker,Moderate,Yes,No,No,166,56,Urban,20.3,Normal weight,0
+9,70,Male,High Fat,Non-smoker,Low,No,Yes,No,152,91,Rural,39.4,Obesity,1
+10,19,Male,High Fat,Non-smoker,Low,Yes,Yes,No,161,56,Urban,21.6,Normal weight,1
+11,47,Male,Balanced,Non-smoker,High,Yes,Yes,Yes,166,77,Urban,27.9,Overweight,1
+12,55,Male,Vegetarian,Smoker,High,Yes,No,Yes,155,83,Rural,34.5,Obesity,1
+13,19,Female,High Fat,Non-smoker,Moderate,Yes,Yes,Yes,181,25,Urban,7.6,Underweight,1
+14,81,Female,High Fat,Non-smoker,Moderate,No,Yes,Yes,158,83,Urban,33.2,Obesity,1
+15,77,Male,Vegetarian,Non-smoker,Low,Yes,Yes,No,178,90,Rural,28.4,Overweight,1
+16,38,Male,High Fat,Non-smoker,High,No,Yes,Yes,163,86,Urban,32.4,Obesity,1
+17,50,Male,High Fat,Non-smoker,Moderate,Yes,Yes,Yes,149,100,Urban,45.0,Obesity,1
+18,75,Male,Vegetarian,Smoker,Moderate,No,Yes,Yes,153,84,Rural,35.9,Obesity,1
+19,39,Male,Vegetarian,Smoker,Moderate,No,Yes,No,166,61,Urban,22.1,Normal weight,1
+20,66,Male,Vegetarian,Smoker,Moderate,No,No,Yes,175,88,Rural,28.7,Overweight,1
+21,76,Female,Vegetarian,Non-smoker,Moderate,No,No,Yes,182,61,Urban,18.4,Underweight,1
+22,59,Male,Balanced,Non-smoker,Moderate,No,Yes,No,166,71,Rural,25.8,Overweight,1
+23,77,Female,Vegetarian,Non-smoker,Low,No,Yes,No,153,82,Rural,35.0,Obesity,1
+24,32,Female,Balanced,Smoker,High,Yes,No,Yes,167,76,Urban,27.3,Overweight,1
+25,79,Male,Balanced,Non-smoker,High,No,No,No,156,90,Rural,37.0,Obesity,1
+26,79,Female,Balanced,Non-smoker,Moderate,Yes,Yes,No,168,107,Urban,37.9,Obesity,1
+27,64,Female,High Fat,Non-smoker,High,No,Yes,No,155,52,Urban,21.6,Normal weight,1
+28,79,Female,Balanced,Smoker,High,Yes,No,No,144,65,Rural,31.3,Obesity,1
+29,68,Female,Balanced,Non-smoker,High,No,No,No,178,74,Urban,23.4,Normal weight,1
+30,72,Female,High Fat,Smoker,Moderate,No,Yes,Yes,162,63,Urban,24.0,Normal weight,1
+31,81,Female,High Fat,Non-smoker,Moderate,Yes,Yes,Yes,165,68,Rural,25.0,Overweight,1
+32,20,Male,High Fat,Smoker,High,No,Yes,No,174,81,Urban,26.8,Overweight,1
+33,68,Female,Vegetarian,Smoker,High,No,Yes,Yes,183,79,Urban,23.6,Normal weight,1
+34,24,Female,High Fat,Smoker,Moderate,No,Yes,Yes,172,73,Rural,24.7,Normal weight,1
+35,38,Female,High Fat,Non-smoker,Low,Yes,Yes,No,166,72,Urban,26.1,Overweight,1
+36,56,Male,Balanced,Non-smoker,High,No,No,No,169,66,Urban,23.1,Normal weight,0
+37,35,Female,High Fat,Smoker,Low,Yes,Yes,Yes,162,91,Rural,34.7,Obesity,1
+38,21,Male,Vegetarian,Smoker,High,No,No,No,165,94,Urban,34.5,Obesity,1
+39,77,Female,High Fat,Non-smoker,Low,No,Yes,Yes,166,85,Urban,30.8,Obesity,1
+40,31,Male,Vegetarian,Non-smoker,Low,Yes,Yes,Yes,157,52,Rural,21.1,Normal weight,1
+41,26,Male,High Fat,Smoker,Low,No,Yes,No,165,66,Urban,24.2,Normal weight,1
+42,70,Female,High Fat,Non-smoker,Moderate,No,Yes,Yes,168,72,Urban,25.5,Overweight,1
+43,19,Female,High Fat,Non-smoker,Low,Yes,Yes,No,170,55,Rural,19.0,Normal weight,1
+44,77,Male,High Fat,Non-smoker,Low,No,Yes,Yes,169,71,Rural,24.9,Normal weight,1
+45,88,Female,Vegetarian,Non-smoker,Low,Yes,No,No,151,70,Urban,30.7,Obesity,1
+46,61,Male,Vegetarian,Smoker,High,Yes,Yes,Yes,177,86,Urban,27.5,Overweight,1
+47,25,Male,Balanced,Non-smoker,Low,Yes,No,Yes,176,62,Rural,20.0,Normal weight,1
+48,64,Male,Vegetarian,Non-smoker,High,No,Yes,Yes,164,87,Urban,32.3,Obesity,1
+49,52,Male,High Fat,Smoker,Low,Yes,Yes,No,169,55,Urban,19.3,Normal weight,1
+50,53,Male,Balanced,Smoker,Low,Yes,Yes,No,162,57,Urban,21.7,Normal weight,1
+51,67,Female,Balanced,Non-smoker,Moderate,No,Yes,Yes,172,64,Rural,21.6,Normal weight,1
+52,21,Male,Balanced,Non-smoker,High,Yes,No,Yes,156,70,Urban,28.8,Overweight,1
+53,19,Male,High Fat,Non-smoker,Low,No,Yes,No,178,33,Urban,10.4,Underweight,1
+54,23,Female,Vegetarian,Non-smoker,High,No,No,No,172,76,Rural,25.7,Overweight,1
+55,71,Male,High Fat,Smoker,High,No,Yes,Yes,172,95,Rural,32.1,Obesity,1
+56,21,Female,Balanced,Smoker,Moderate,No,No,Yes,163,79,Rural,29.7,Overweight,1
+57,71,Female,High Fat,Smoker,Moderate,Yes,Yes,No,150,66,Urban,29.3,Overweight,1
+58,80,Female,High Fat,Non-smoker,Moderate,Yes,Yes,No,173,53,Urban,17.7,Underweight,1
+59,35,Male,Vegetarian,Non-smoker,Moderate,Yes,Yes,Yes,151,42,Rural,18.4,Underweight,1
+60,61,Male,Vegetarian,Non-smoker,Moderate,Yes,Yes,Yes,173,45,Urban,15.0,Underweight,1
+61,51,Male,Balanced,Non-smoker,Moderate,Yes,Yes,No,157,68,Urban,27.6,Overweight,1
+62,79,Female,High Fat,Smoker,Moderate,No,Yes,Yes,149,101,Urban,45.5,Obesity,1
+63,31,Male,High Fat,Smoker,Moderate,Yes,Yes,No,165,29,Urban,10.7,Underweight,1
+64,65,Female,Vegetarian,Non-smoker,Low,Yes,Yes,No,176,80,Rural,25.8,Overweight,1
+65,32,Male,High Fat,Smoker,High,Yes,Yes,No,155,59,Rural,24.6,Normal weight,1
+66,89,Female,High Fat,Non-smoker,Moderate,No,Yes,No,180,64,Urban,19.8,Normal weight,1
+67,79,Male,High Fat,Non-smoker,Moderate,No,Yes,No,171,55,Rural,18.8,Normal weight,1
+68,57,Male,Vegetarian,Smoker,High,Yes,No,No,166,49,Urban,17.8,Underweight,0
+69,70,Male,Balanced,Non-smoker,Low,No,Yes,Yes,160,71,Urban,27.7,Overweight,1
+70,41,Female,Balanced,Non-smoker,High,Yes,No,No,161,73,Rural,28.2,Overweight,1
+71,43,Female,High Fat,Smoker,High,Yes,Yes,Yes,169,80,Rural,28.0,Overweight,1
+72,77,Male,Balanced,Non-smoker,Moderate,No,No,No,173,44,Urban,14.7,Underweight,1
+73,58,Male,Vegetarian,Non-smoker,High,No,No,Yes,159,83,Urban,32.8,Obesity,1
+74,46,Female,Vegetarian,Smoker,High,Yes,Yes,No,156,83,Urban,34.1,Obesity,1
+75,32,Female,Balanced,Non-smoker,Moderate,Yes,No,No,162,76,Urban,29.0,Overweight,1
+76,62,Female,Balanced,Smoker,Moderate,No,Yes,Yes,178,63,Rural,19.9,Normal weight,1
+77,82,Male,High Fat,Non-smoker,Moderate,Yes,Yes,No,152,74,Rural,32.0,Obesity,1
+78,88,Female,Balanced,Smoker,Moderate,No,Yes,No,176,67,Urban,21.6,Normal weight,1
+79,26,Male,High Fat,Smoker,High,Yes,Yes,No,165,84,Urban,30.9,Obesity,1
+80,18,Female,High Fat,Smoker,High,No,Yes,Yes,148,64,Rural,29.2,Overweight,1
+81,25,Male,Vegetarian,Non-smoker,Low,Yes,Yes,No,160,71,Urban,27.7,Overweight,1
+82,80,Female,Vegetarian,Smoker,Low,Yes,Yes,No,171,43,Rural,14.7,Underweight,1
+83,28,Female,Vegetarian,Smoker,High,No,Yes,No,183,74,Urban,22.1,Normal weight,1
+84,25,Female,Vegetarian,Smoker,Low,Yes,No,No,151,58,Rural,25.4,Overweight,1
+85,52,Female,Balanced,Smoker,High,Yes,Yes,No,136,77,Urban,41.6,Obesity,1
+86,52,Female,Vegetarian,Smoker,Low,No,No,No,151,81,Urban,35.5,Obesity,1
+87,50,Male,Balanced,Non-smoker,Moderate,Yes,Yes,No,176,60,Urban,19.4,Normal weight,1
+88,22,Female,Vegetarian,Non-smoker,Low,Yes,Yes,Yes,147,70,Rural,32.4,Obesity,1
+89,58,Female,Balanced,Non-smoker,Moderate,Yes,Yes,No,179,72,Rural,22.5,Normal weight,1
+90,45,Female,High Fat,Non-smoker,Moderate,No,Yes,Yes,177,75,Urban,23.9,Normal weight,1
+91,24,Male,Balanced,Non-smoker,Moderate,No,Yes,No,166,81,Urban,29.4,Overweight,1
+92,89,Female,Balanced,Non-smoker,Moderate,No,No,Yes,158,79,Urban,31.6,Obesity,1
+93,29,Male,Vegetarian,Non-smoker,Low,Yes,No,Yes,165,64,Urban,23.5,Normal weight,1
+94,51,Female,Balanced,Smoker,High,Yes,No,No,171,93,Rural,31.8,Obesity,1
+95,50,Female,High Fat,Non-smoker,Moderate,Yes,Yes,No,169,81,Rural,28.4,Overweight,1
+96,65,Male,High Fat,Smoker,Low,Yes,Yes,No,182,91,Rural,27.5,Overweight,1
+97,40,Female,Vegetarian,Smoker,Moderate,No,No,Yes,162,75,Urban,28.6,Overweight,1
+98,79,Male,High Fat,Non-smoker,Low,Yes,Yes,No,151,76,Urban,33.3,Obesity,1
+99,54,Male,Balanced,Smoker,Low,Yes,Yes,Yes,150,68,Rural,30.2,Obesity,1
+100,61,Female,High Fat,Smoker,Low,Yes,Yes,No,148,63,Urban,28.8,Overweight,1
+101,52,Male,Vegetarian,Smoker,High,No,No,No,166,84,Rural,30.5,Obesity,1
+102,82,Female,Balanced,Smoker,Low,Yes,No,Yes,162,73,Rural,27.8,Overweight,1
+103,64,Female,Vegetarian,Non-smoker,Low,Yes,Yes,Yes,165,68,Rural,25.0,Overweight,1
+104,20,Male,Balanced,Non-smoker,High,Yes,Yes,No,159,54,Rural,21.4,Normal weight,1
+105,18,Male,High Fat,Non-smoker,High,Yes,Yes,No,153,93,Urban,39.7,Obesity,1
+106,22,Male,Vegetarian,Non-smoker,Low,Yes,Yes,No,171,71,Rural,24.3,Normal weight,1
+107,31,Male,Vegetarian,Non-smoker,High,No,No,No,140,51,Urban,26.0,Overweight,1
+108,44,Female,Balanced,Non-smoker,Moderate,Yes,No,No,156,71,Rural,29.2,Overweight,1
+109,26,Female,Vegetarian,Non-smoker,Moderate,Yes,Yes,Yes,172,66,Rural,22.3,Normal weight,1
+110,32,Male,Balanced,Non-smoker,High,Yes,Yes,Yes,155,66,Rural,27.5,Overweight,1
+111,59,Female,Balanced,Non-smoker,High,Yes,Yes,Yes,168,78,Rural,27.6,Overweight,1
+112,68,Female,Balanced,Non-smoker,Low,Yes,No,Yes,156,67,Urban,27.5,Overweight,1
+113,80,Female,Balanced,Smoker,High,Yes,Yes,No,160,65,Urban,25.4,Overweight,1
+114,69,Female,High Fat,Non-smoker,Low,Yes,Yes,No,170,90,Urban,31.1,Obesity,1
+115,21,Male,Balanced,Smoker,Moderate,Yes,No,Yes,152,43,Urban,18.6,Normal weight,1
+116,40,Male,Vegetarian,Smoker,High,Yes,No,No,172,69,Rural,23.3,Normal weight,0
+117,32,Female,High Fat,Smoker,Low,Yes,Yes,Yes,165,83,Urban,30.5,Obesity,1
+118,60,Male,Vegetarian,Smoker,Low,No,No,Yes,177,79,Urban,25.2,Overweight,1
+119,46,Male,High Fat,Non-smoker,Moderate,No,Yes,No,167,85,Rural,30.5,Obesity,1
+120,53,Male,Balanced,Smoker,High,No,Yes,No,154,100,Urban,42.2,Obesity,1
+121,30,Female,High Fat,Non-smoker,Moderate,No,Yes,No,182,95,Urban,28.7,Overweight,1
+122,49,Female,High Fat,Non-smoker,Low,Yes,Yes,Yes,155,52,Urban,21.6,Normal weight,1
+123,88,Female,Vegetarian,Smoker,Low,No,Yes,No,162,45,Urban,17.1,Underweight,1
+124,76,Male,Vegetarian,Non-smoker,High,No,Yes,No,174,74,Rural,24.4,Normal weight,1
+125,45,Female,Balanced,Smoker,Low,Yes,Yes,Yes,146,49,Rural,23.0,Normal weight,1
+126,83,Female,High Fat,Smoker,High,No,Yes,Yes,179,41,Urban,12.8,Underweight,1
+127,59,Male,High Fat,Non-smoker,Moderate,No,Yes,Yes,153,74,Rural,31.6,Obesity,1
+128,62,Female,High Fat,Non-smoker,High,Yes,Yes,No,160,78,Urban,30.5,Obesity,1
+129,79,Female,Balanced,Smoker,High,Yes,Yes,Yes,167,95,Urban,34.1,Obesity,1
+130,74,Male,Balanced,Non-smoker,Low,Yes,Yes,No,164,81,Urban,30.1,Obesity,1
+131,23,Male,Balanced,Non-smoker,Low,No,Yes,No,172,98,Rural,33.1,Obesity,1
+132,45,Male,Balanced,Non-smoker,High,No,No,Yes,148,75,Rural,34.2,Obesity,1
+133,45,Female,Balanced,Smoker,Low,Yes,No,Yes,172,52,Rural,17.6,Underweight,1
+134,61,Female,Vegetarian,Smoker,Low,Yes,Yes,Yes,173,82,Rural,27.4,Overweight,1
+135,47,Female,High Fat,Non-smoker,Low,No,Yes,Yes,175,90,Rural,29.4,Overweight,1
+136,79,Male,High Fat,Non-smoker,High,Yes,Yes,No,149,75,Rural,33.8,Obesity,1
+137,79,Male,High Fat,Non-smoker,Low,No,Yes,No,150,91,Urban,40.4,Obesity,1
+138,18,Female,High Fat,Non-smoker,High,Yes,Yes,No,161,68,Rural,26.2,Overweight,1
+139,44,Female,High Fat,Non-smoker,Low,Yes,Yes,Yes,151,78,Urban,34.2,Obesity,1
+140,79,Male,High Fat,Smoker,Moderate,No,Yes,Yes,146,67,Urban,31.4,Obesity,1
+141,20,Male,High Fat,Non-smoker,Low,Yes,Yes,No,161,105,Rural,40.5,Obesity,1
+142,87,Male,High Fat,Smoker,Low,Yes,Yes,No,167,82,Urban,29.4,Overweight,1
+143,89,Male,Vegetarian,Non-smoker,High,Yes,No,Yes,192,53,Urban,14.4,Underweight,1
+144,44,Female,High Fat,Smoker,High,No,Yes,Yes,170,97,Urban,33.6,Obesity,1
+145,26,Male,Vegetarian,Non-smoker,Low,Yes,No,No,182,59,Rural,17.8,Underweight,0
+146,79,Female,Balanced,Smoker,Moderate,Yes,Yes,No,164,70,Rural,26.0,Overweight,1
+147,54,Female,High Fat,Non-smoker,Low,Yes,Yes,No,170,77,Urban,26.6,Overweight,1
+148,68,Female,Balanced,Smoker,Low,Yes,No,No,163,78,Rural,29.4,Overweight,1
+149,61,Male,Balanced,Smoker,Moderate,Yes,Yes,No,191,77,Urban,21.1,Normal weight,1
+150,41,Male,Balanced,Smoker,High,Yes,Yes,Yes,158,53,Rural,21.2,Normal weight,1
+151,76,Male,Vegetarian,Smoker,Low,No,Yes,No,159,77,Urban,30.5,Obesity,1
+152,49,Male,Balanced,Smoker,High,No,No,Yes,172,86,Urban,29.1,Overweight,1
+153,69,Female,Balanced,Smoker,High,Yes,No,No,167,86,Rural,30.8,Obesity,1
+154,79,Male,Balanced,Non-smoker,Moderate,No,Yes,No,160,50,Rural,19.5,Normal weight,1
+155,75,Male,High Fat,Smoker,Moderate,No,Yes,Yes,174,60,Rural,19.8,Normal weight,1
+156,69,Female,High Fat,Non-smoker,High,Yes,Yes,Yes,164,54,Rural,20.1,Normal weight,1
+157,29,Male,Vegetarian,Non-smoker,Low,No,No,No,164,75,Rural,27.9,Overweight,1
+158,56,Female,Vegetarian,Non-smoker,High,No,Yes,Yes,167,46,Urban,16.5,Underweight,1
+159,19,Female,High Fat,Non-smoker,Low,No,Yes,Yes,147,53,Urban,24.5,Normal weight,1
+160,20,Female,Vegetarian,Non-smoker,Low,No,No,No,149,60,Urban,27.0,Overweight,1
+161,73,Female,High Fat,Smoker,Moderate,No,Yes,No,175,43,Rural,14.0,Underweight,1
+162,76,Female,Balanced,Smoker,Low,No,Yes,Yes,158,69,Rural,27.6,Overweight,1
+163,19,Female,Balanced,Smoker,Low,No,No,No,163,38,Urban,14.3,Underweight,0
+164,19,Female,Vegetarian,Non-smoker,High,No,Yes,No,181,77,Urban,23.5,Normal weight,1
+165,71,Female,High Fat,Smoker,Moderate,Yes,Yes,No,164,64,Urban,23.8,Normal weight,1
+166,18,Male,High Fat,Smoker,Low,Yes,Yes,No,162,60,Urban,22.9,Normal weight,1
+167,36,Male,Vegetarian,Smoker,Low,No,No,Yes,173,63,Rural,21.0,Normal weight,1
+168,19,Male,High Fat,Smoker,Moderate,No,Yes,No,159,69,Urban,27.3,Overweight,1
+169,70,Male,Balanced,Smoker,High,Yes,No,Yes,177,78,Rural,24.9,Normal weight,1
+170,61,Female,Vegetarian,Non-smoker,Moderate,No,No,No,173,89,Urban,29.7,Overweight,1
+171,49,Male,Vegetarian,Smoker,Moderate,No,Yes,No,183,85,Rural,25.4,Overweight,1
+172,87,Female,High Fat,Non-smoker,Low,Yes,Yes,No,158,103,Rural,41.3,Obesity,1
+173,49,Male,Vegetarian,Non-smoker,Low,Yes,No,No,178,80,Rural,25.2,Overweight,1
+174,85,Male,High Fat,Non-smoker,High,Yes,Yes,Yes,170,72,Rural,24.9,Overweight,1
+175,72,Male,High Fat,Non-smoker,Low,No,Yes,No,151,63,Urban,27.6,Overweight,1
+176,73,Female,High Fat,Non-smoker,Low,No,Yes,No,139,63,Urban,32.6,Obesity,1
+177,34,Male,High Fat,Smoker,Moderate,Yes,Yes,No,157,78,Urban,31.6,Obesity,1
+178,55,Female,High Fat,Smoker,Low,Yes,Yes,No,167,55,Rural,19.7,Normal weight,1
+179,41,Female,Vegetarian,Smoker,High,No,Yes,No,169,73,Urban,25.6,Overweight,1
+180,86,Male,Balanced,Non-smoker,Moderate,Yes,No,No,164,69,Urban,25.7,Overweight,1
+181,87,Male,Balanced,Smoker,High,No,Yes,No,164,59,Urban,21.9,Normal weight,1
+182,28,Male,Vegetarian,Smoker,Moderate,No,No,No,163,54,Rural,20.3,Normal weight,0
+183,33,Female,Vegetarian,Non-smoker,Low,Yes,Yes,No,175,107,Rural,34.9,Obesity,1
+184,76,Male,Balanced,Non-smoker,Moderate,Yes,Yes,Yes,150,49,Rural,21.8,Normal weight,1
+185,87,Female,Balanced,Non-smoker,Moderate,No,Yes,Yes,167,68,Urban,24.4,Normal weight,1
+186,20,Female,Balanced,Non-smoker,Low,Yes,No,No,156,88,Urban,36.2,Obesity,1
+187,37,Male,Balanced,Smoker,Low,Yes,No,Yes,155,77,Urban,32.0,Obesity,1
+188,76,Male,Balanced,Non-smoker,High,Yes,Yes,Yes,176,62,Rural,20.0,Normal weight,1
+189,53,Female,High Fat,Non-smoker,High,Yes,Yes,Yes,155,52,Urban,21.6,Normal weight,1
+190,36,Female,Vegetarian,Smoker,Low,No,No,Yes,163,71,Rural,26.7,Overweight,1
+191,84,Female,High Fat,Smoker,Low,No,Yes,Yes,184,30,Rural,8.9,Underweight,1
+192,36,Male,Balanced,Non-smoker,Low,No,No,No,173,72,Rural,24.1,Normal weight,0
+193,37,Female,Balanced,Smoker,Moderate,No,Yes,No,160,70,Rural,27.3,Overweight,1
+194,88,Male,Balanced,Non-smoker,Moderate,Yes,Yes,No,161,86,Urban,33.2,Obesity,1
+195,69,Female,High Fat,Non-smoker,Moderate,Yes,Yes,Yes,152,52,Urban,22.5,Normal weight,1
+196,50,Female,High Fat,Smoker,Low,No,Yes,No,178,65,Rural,20.5,Normal weight,1
+197,57,Male,Balanced,Smoker,High,No,No,Yes,175,76,Urban,24.8,Normal weight,1
+198,56,Female,High Fat,Non-smoker,Low,Yes,Yes,No,171,73,Rural,25.0,Overweight,1
+199,18,Male,High Fat,Non-smoker,Moderate,No,Yes,Yes,172,49,Urban,16.6,Underweight,1
+200,28,Male,Balanced,Non-smoker,Moderate,No,No,No,157,60,Urban,24.3,Normal weight,0
+201,74,Female,High Fat,Smoker,Low,Yes,Yes,Yes,149,90,Rural,40.5,Obesity,1
+202,67,Male,Vegetarian,Non-smoker,Low,No,Yes,Yes,170,73,Rural,25.3,Overweight,1
+203,40,Male,Vegetarian,Non-smoker,Moderate,Yes,Yes,No,173,45,Rural,15.0,Underweight,1
+204,48,Female,Vegetarian,Non-smoker,Moderate,Yes,No,Yes,181,83,Rural,25.3,Overweight,1
+205,59,Male,Vegetarian,Non-smoker,Moderate,No,No,No,162,46,Urban,17.5,Underweight,0
+206,24,Male,Balanced,Non-smoker,Low,Yes,No,Yes,161,65,Rural,25.1,Overweight,1
+207,33,Male,Balanced,Smoker,Moderate,No,No,No,162,78,Urban,29.7,Overweight,1
+208,77,Female,Balanced,Non-smoker,Moderate,Yes,Yes,No,171,88,Rural,30.1,Obesity,1
+209,19,Male,Vegetarian,Non-smoker,High,No,No,Yes,162,34,Urban,13.0,Underweight,1
+210,18,Female,Vegetarian,Non-smoker,Low,No,Yes,No,164,80,Rural,29.7,Overweight,1
+211,65,Female,High Fat,Non-smoker,High,No,Yes,No,173,82,Urban,27.4,Overweight,1
+212,29,Male,High Fat,Smoker,High,Yes,Yes,No,158,61,Urban,24.4,Normal weight,1
+213,86,Male,Vegetarian,Smoker,Moderate,Yes,Yes,No,178,71,Urban,22.4,Normal weight,1
+214,54,Male,Vegetarian,Smoker,Low,No,No,Yes,171,24,Rural,8.2,Underweight,1
+215,49,Female,Vegetarian,Non-smoker,Moderate,Yes,No,No,146,28,Rural,13.1,Underweight,0
+216,26,Male,Vegetarian,Non-smoker,Low,No,Yes,No,159,86,Rural,34.0,Obesity,1
+217,36,Male,High Fat,Smoker,High,No,Yes,Yes,144,61,Rural,29.4,Overweight,1
+218,65,Male,Vegetarian,Smoker,Low,Yes,Yes,Yes,163,64,Urban,24.1,Normal weight,1
+219,20,Male,High Fat,Smoker,Moderate,No,Yes,No,160,73,Urban,28.5,Overweight,1
+220,37,Male,Vegetarian,Non-smoker,Moderate,Yes,Yes,Yes,173,64,Urban,21.4,Normal weight,1
+221,41,Female,Vegetarian,Non-smoker,Moderate,No,No,Yes,156,63,Rural,25.9,Overweight,1
+222,71,Female,Vegetarian,Smoker,Low,Yes,Yes,No,168,75,Urban,26.6,Overweight,1
+223,50,Male,High Fat,Smoker,High,No,Yes,Yes,170,47,Urban,16.3,Underweight,1
+224,41,Male,High Fat,Smoker,High,No,Yes,No,167,87,Rural,31.2,Obesity,1
+225,89,Male,Balanced,Non-smoker,Low,Yes,No,No,176,66,Rural,21.3,Normal weight,1
+226,53,Male,Vegetarian,Non-smoker,Moderate,No,No,Yes,185,54,Urban,15.8,Underweight,1
+227,55,Female,Balanced,Non-smoker,High,No,Yes,No,166,52,Rural,18.9,Normal weight,1
+228,42,Male,Balanced,Smoker,Moderate,Yes,No,No,169,70,Rural,24.5,Normal weight,0
+229,35,Female,High Fat,Smoker,Low,No,Yes,No,156,65,Rural,26.7,Overweight,1
+230,83,Female,High Fat,Non-smoker,Moderate,Yes,Yes,Yes,154,46,Rural,19.4,Normal weight,1
+231,71,Male,Balanced,Smoker,High,No,No,Yes,175,60,Urban,19.6,Normal weight,1
+232,52,Female,Vegetarian,Non-smoker,High,Yes,Yes,Yes,174,57,Urban,18.8,Normal weight,1
+233,78,Female,High Fat,Smoker,Moderate,No,Yes,Yes,154,88,Urban,37.1,Obesity,1
+234,58,Female,Vegetarian,Smoker,Low,No,Yes,No,151,71,Urban,31.1,Obesity,1
+235,50,Female,Vegetarian,Smoker,Moderate,No,Yes,No,158,93,Urban,37.3,Obesity,1
+236,85,Male,Balanced,Smoker,Low,Yes,Yes,No,163,59,Rural,22.2,Normal weight,1
+237,50,Male,Balanced,Non-smoker,Moderate,Yes,No,No,160,65,Urban,25.4,Overweight,1
+238,31,Female,Balanced,Smoker,High,Yes,Yes,Yes,166,75,Urban,27.2,Overweight,1
+239,38,Male,Balanced,Non-smoker,Low,Yes,No,Yes,174,79,Rural,26.1,Overweight,1
+240,65,Male,High Fat,Non-smoker,Low,No,Yes,Yes,169,80,Rural,28.0,Overweight,1
+241,37,Male,High Fat,Non-smoker,Low,No,Yes,Yes,170,56,Rural,19.4,Normal weight,1
+242,25,Male,Balanced,Smoker,High,Yes,No,Yes,140,57,Urban,29.1,Overweight,1
+243,24,Male,High Fat,Non-smoker,Moderate,Yes,Yes,Yes,148,64,Rural,29.2,Overweight,1
+244,84,Female,Balanced,Non-smoker,High,Yes,No,Yes,157,92,Rural,37.3,Obesity,1
+245,34,Male,Vegetarian,Non-smoker,Low,No,No,No,158,54,Rural,21.6,Normal weight,0
+246,50,Male,Vegetarian,Smoker,Moderate,Yes,Yes,No,173,62,Urban,20.7,Normal weight,1
+247,65,Male,Vegetarian,Smoker,High,Yes,Yes,Yes,156,80,Rural,32.9,Obesity,1
+248,76,Male,Balanced,Non-smoker,Low,No,Yes,No,171,80,Rural,27.4,Overweight,1
+249,39,Female,Vegetarian,Smoker,Low,No,Yes,No,157,78,Urban,31.6,Obesity,1
+250,47,Female,High Fat,Non-smoker,High,Yes,Yes,No,152,71,Rural,30.7,Obesity,1
+251,55,Female,Vegetarian,Non-smoker,High,No,No,No,153,54,Urban,23.1,Normal weight,0
+252,68,Female,Vegetarian,Smoker,High,Yes,Yes,No,187,59,Urban,16.9,Underweight,1
+253,71,Male,Vegetarian,Non-smoker,Low,No,Yes,Yes,156,86,Rural,35.3,Obesity,1
+254,25,Female,High Fat,Smoker,High,Yes,Yes,No,171,81,Urban,27.7,Overweight,1
+255,44,Male,Balanced,Smoker,Low,Yes,Yes,No,149,49,Rural,22.1,Normal weight,1
+256,44,Male,High Fat,Non-smoker,High,Yes,Yes,No,179,83,Rural,25.9,Overweight,1
+257,38,Male,Balanced,Smoker,Low,Yes,No,No,168,89,Rural,31.5,Obesity,1
+258,47,Male,Balanced,Smoker,Low,No,Yes,Yes,167,70,Rural,25.1,Overweight,1
+259,45,Male,Vegetarian,Non-smoker,Moderate,No,Yes,Yes,169,76,Urban,26.6,Overweight,1
+260,81,Female,Balanced,Non-smoker,High,No,No,No,170,85,Rural,29.4,Overweight,1
+261,86,Female,High Fat,Smoker,High,No,Yes,Yes,173,59,Rural,19.7,Normal weight,1
+262,78,Female,High Fat,Smoker,Low,Yes,Yes,Yes,159,104,Rural,41.1,Obesity,1
+263,65,Female,Balanced,Non-smoker,Low,Yes,No,Yes,158,88,Urban,35.3,Obesity,1
+264,36,Male,Vegetarian,Smoker,Low,No,No,No,165,77,Urban,28.3,Overweight,1
+265,21,Female,Vegetarian,Smoker,Moderate,No,Yes,No,171,69,Rural,23.6,Normal weight,1
+266,52,Male,High Fat,Smoker,Moderate,No,Yes,Yes,164,77,Urban,28.6,Overweight,1
+267,81,Female,Vegetarian,Smoker,Low,No,Yes,No,172,46,Urban,15.5,Underweight,1
+268,66,Male,Balanced,Smoker,High,No,Yes,Yes,171,101,Rural,34.5,Obesity,1
+269,34,Male,Balanced,Smoker,High,Yes,No,Yes,162,86,Rural,32.8,Obesity,1
+270,61,Female,High Fat,Smoker,Moderate,Yes,Yes,No,147,91,Rural,42.1,Obesity,1
+271,47,Male,Balanced,Non-smoker,Moderate,Yes,No,Yes,159,70,Rural,27.7,Overweight,1
+272,63,Male,High Fat,Non-smoker,Low,No,Yes,Yes,182,64,Rural,19.3,Normal weight,1
+273,23,Female,Balanced,Non-smoker,High,No,Yes,Yes,168,59,Urban,20.9,Normal weight,1
+274,54,Male,High Fat,Non-smoker,Low,No,Yes,No,158,82,Rural,32.8,Obesity,1
+275,41,Female,Vegetarian,Non-smoker,Moderate,No,No,No,167,62,Rural,22.2,Normal weight,0
+276,63,Female,Balanced,Smoker,High,Yes,Yes,No,171,67,Rural,22.9,Normal weight,1
+277,70,Female,Balanced,Smoker,High,Yes,Yes,No,158,78,Rural,31.2,Obesity,1
+278,77,Male,High Fat,Smoker,Moderate,No,Yes,Yes,177,60,Rural,19.2,Normal weight,1
+279,80,Male,High Fat,Smoker,Low,Yes,Yes,Yes,169,85,Urban,29.8,Overweight,1
+280,49,Male,Balanced,Non-smoker,Low,Yes,Yes,No,154,69,Rural,29.1,Overweight,1
+281,50,Female,High Fat,Smoker,High,No,Yes,No,173,47,Urban,15.7,Underweight,1
+282,84,Male,Balanced,Smoker,Moderate,No,Yes,No,160,59,Rural,23.0,Normal weight,1
+283,35,Female,Vegetarian,Non-smoker,High,No,No,No,163,89,Rural,33.5,Obesity,1
+284,42,Female,High Fat,Smoker,Moderate,No,Yes,No,154,55,Rural,23.2,Normal weight,1
+285,71,Male,Balanced,Smoker,Low,No,Yes,No,171,83,Urban,28.4,Overweight,1
+286,75,Female,Vegetarian,Non-smoker,Moderate,No,Yes,No,163,71,Rural,26.7,Overweight,1
+287,84,Male,Vegetarian,Smoker,Low,Yes,Yes,Yes,171,67,Rural,22.9,Normal weight,1
+288,63,Male,Balanced,Smoker,Moderate,Yes,Yes,Yes,159,107,Rural,42.3,Obesity,1
+289,41,Male,High Fat,Smoker,High,No,Yes,No,158,50,Rural,20.0,Normal weight,1
+290,49,Male,Balanced,Smoker,Low,Yes,Yes,Yes,157,58,Rural,23.5,Normal weight,1
+291,64,Male,Vegetarian,Smoker,High,No,Yes,No,168,69,Rural,24.4,Normal weight,1
+292,40,Female,Balanced,Non-smoker,High,No,No,No,158,106,Rural,42.5,Obesity,1
+293,83,Female,High Fat,Non-smoker,Low,No,Yes,Yes,162,69,Urban,26.3,Overweight,1
+294,44,Female,Vegetarian,Non-smoker,Low,No,No,No,159,74,Rural,29.3,Overweight,1
+295,19,Male,Balanced,Non-smoker,High,Yes,No,Yes,169,64,Rural,22.4,Normal weight,1
+296,34,Male,High Fat,Non-smoker,High,No,Yes,Yes,147,75,Rural,34.7,Obesity,1
+297,50,Male,Vegetarian,Non-smoker,High,Yes,Yes,Yes,167,65,Urban,23.3,Normal weight,1
+298,26,Female,High Fat,Smoker,High,No,Yes,No,182,80,Urban,24.2,Normal weight,1
+299,60,Male,Vegetarian,Non-smoker,Low,No,No,Yes,177,81,Rural,25.9,Overweight,1
+300,65,Female,Balanced,Non-smoker,Low,No,Yes,No,158,66,Urban,26.4,Overweight,1
+301,56,Female,High Fat,Smoker,High,Yes,Yes,No,169,53,Rural,18.6,Normal weight,1
+302,59,Male,Vegetarian,Smoker,Moderate,No,Yes,Yes,168,71,Rural,25.2,Overweight,1
+303,43,Male,High Fat,Non-smoker,Moderate,No,Yes,Yes,179,91,Urban,28.4,Overweight,1
+304,67,Female,High Fat,Smoker,Low,No,Yes,Yes,139,57,Rural,29.5,Overweight,1
+305,42,Male,Balanced,Non-smoker,High,Yes,Yes,No,176,75,Urban,24.2,Normal weight,1
+306,41,Female,High Fat,Smoker,High,Yes,Yes,No,162,51,Urban,19.4,Normal weight,1
+307,30,Male,Vegetarian,Non-smoker,Low,Yes,No,No,157,54,Urban,21.9,Normal weight,0
+308,77,Male,Vegetarian,Smoker,Moderate,No,No,No,157,89,Rural,36.1,Obesity,1
+309,24,Female,Vegetarian,Smoker,Moderate,Yes,Yes,No,152,80,Rural,34.6,Obesity,1
+310,74,Male,Vegetarian,Non-smoker,Moderate,No,Yes,Yes,158,75,Rural,30.0,Obesity,1
+311,53,Female,Balanced,Non-smoker,Low,Yes,No,No,154,35,Rural,14.8,Underweight,0
+312,62,Male,High Fat,Non-smoker,Moderate,Yes,Yes,No,166,61,Rural,22.1,Normal weight,1
+313,37,Female,Balanced,Non-smoker,Low,No,Yes,Yes,170,79,Rural,27.3,Overweight,1
+314,82,Female,High Fat,Non-smoker,Low,Yes,Yes,No,162,48,Rural,18.3,Underweight,1
+315,25,Male,High Fat,Smoker,High,No,Yes,No,179,64,Urban,20.0,Normal weight,1
+316,33,Female,High Fat,Non-smoker,Moderate,No,Yes,No,159,81,Rural,32.0,Obesity,1
+317,31,Male,Balanced,Non-smoker,Low,Yes,Yes,No,161,47,Rural,18.1,Underweight,1
+318,32,Male,High Fat,Smoker,Moderate,No,Yes,No,160,44,Rural,17.2,Underweight,1
+319,83,Male,Balanced,Smoker,Moderate,No,Yes,No,170,47,Urban,16.3,Underweight,1
+320,49,Female,Vegetarian,Non-smoker,High,Yes,No,No,171,75,Urban,25.6,Overweight,1
+321,80,Female,Vegetarian,Smoker,Moderate,Yes,Yes,Yes,169,61,Urban,21.4,Normal weight,1
+322,68,Male,High Fat,Smoker,High,No,Yes,No,163,83,Rural,31.2,Obesity,1
+323,42,Male,Balanced,Non-smoker,Low,Yes,Yes,No,151,71,Urban,31.1,Obesity,1
+324,75,Female,Vegetarian,Smoker,Moderate,No,Yes,No,161,98,Urban,37.8,Obesity,1
+325,80,Male,Balanced,Smoker,Low,No,Yes,Yes,179,51,Rural,15.9,Underweight,1
+326,79,Male,Balanced,Non-smoker,Moderate,Yes,No,No,175,74,Rural,24.2,Normal weight,1
+327,39,Female,High Fat,Non-smoker,Low,Yes,Yes,No,167,58,Rural,20.8,Normal weight,1
+328,75,Male,Vegetarian,Smoker,Moderate,Yes,Yes,No,161,79,Urban,30.5,Obesity,1
+329,75,Female,High Fat,Smoker,Moderate,Yes,Yes,No,164,71,Rural,26.4,Overweight,1
+330,66,Male,High Fat,Non-smoker,Moderate,No,Yes,No,161,55,Rural,21.2,Normal weight,1
+331,69,Female,Vegetarian,Smoker,Moderate,No,Yes,Yes,176,67,Rural,21.6,Normal weight,1
+332,59,Male,Vegetarian,Smoker,Moderate,Yes,Yes,No,156,71,Rural,29.2,Overweight,1
+333,87,Male,Balanced,Smoker,Moderate,Yes,No,No,174,61,Rural,20.1,Normal weight,1
+334,32,Female,Vegetarian,Non-smoker,Moderate,No,Yes,No,159,80,Rural,31.6,Obesity,1
+335,71,Male,Balanced,Smoker,Moderate,No,Yes,Yes,178,54,Urban,17.0,Underweight,1
+336,77,Female,Balanced,Smoker,Moderate,No,Yes,No,169,101,Rural,35.4,Obesity,1
+337,25,Male,Balanced,Non-smoker,Low,No,No,No,157,84,Urban,34.1,Obesity,1
+338,70,Female,Vegetarian,Smoker,High,Yes,Yes,No,161,75,Urban,28.9,Overweight,1
+339,77,Female,High Fat,Smoker,Moderate,No,Yes,Yes,172,112,Rural,37.9,Obesity,1
+340,22,Female,Balanced,Non-smoker,High,No,No,No,160,65,Urban,25.4,Overweight,1
+341,85,Female,High Fat,Non-smoker,Moderate,Yes,Yes,No,165,79,Urban,29.0,Overweight,1
+342,23,Male,High Fat,Non-smoker,Moderate,No,Yes,Yes,159,73,Urban,28.9,Overweight,1
+343,64,Male,Vegetarian,Non-smoker,Low,No,Yes,No,182,81,Rural,24.5,Normal weight,1
+344,72,Female,High Fat,Smoker,Low,Yes,Yes,No,184,92,Urban,27.2,Overweight,1
+345,57,Female,High Fat,Smoker,High,Yes,Yes,No,179,78,Urban,24.3,Normal weight,1
+346,69,Female,Vegetarian,Non-smoker,Low,Yes,No,No,163,85,Urban,32.0,Obesity,1
+347,33,Male,Balanced,Non-smoker,Low,No,Yes,No,160,61,Urban,23.8,Normal weight,1
+348,30,Male,High Fat,Smoker,High,No,Yes,No,157,66,Rural,26.8,Overweight,1
+349,47,Male,Vegetarian,Non-smoker,Low,Yes,Yes,No,180,94,Rural,29.0,Overweight,1
+350,36,Male,High Fat,Smoker,Moderate,Yes,Yes,No,174,78,Urban,25.8,Overweight,1
+351,34,Female,High Fat,Non-smoker,High,No,Yes,Yes,174,73,Rural,24.1,Normal weight,1
+352,80,Female,Balanced,Smoker,High,Yes,Yes,Yes,162,58,Rural,22.1,Normal weight,1
+353,36,Female,High Fat,Non-smoker,Moderate,Yes,Yes,No,147,84,Urban,38.9,Obesity,1
+354,75,Male,Vegetarian,Non-smoker,Low,Yes,No,No,149,58,Rural,26.1,Overweight,1
+355,72,Male,High Fat,Smoker,High,No,Yes,Yes,165,53,Rural,19.5,Normal weight,1
+356,79,Male,Balanced,Non-smoker,High,No,Yes,Yes,159,71,Urban,28.1,Overweight,1
+357,40,Female,Balanced,Smoker,Moderate,No,No,No,158,33,Urban,13.2,Underweight,0
+358,26,Female,Vegetarian,Smoker,Moderate,No,Yes,No,168,79,Rural,28.0,Overweight,1
+359,29,Male,Balanced,Smoker,Low,No,Yes,No,175,75,Rural,24.5,Normal weight,1
+360,18,Female,High Fat,Smoker,High,No,Yes,Yes,157,64,Rural,26.0,Overweight,1
+361,75,Male,Balanced,Smoker,Low,Yes,Yes,Yes,151,66,Rural,28.9,Overweight,1
+362,18,Male,Vegetarian,Non-smoker,Low,No,Yes,Yes,158,68,Urban,27.2,Overweight,1
+363,51,Female,Balanced,Non-smoker,Moderate,No,Yes,No,154,58,Urban,24.5,Normal weight,1
+364,65,Male,Balanced,Smoker,High,Yes,No,No,170,72,Urban,24.9,Overweight,0
+365,18,Female,Balanced,Non-smoker,High,No,Yes,No,164,66,Urban,24.5,Normal weight,1
+366,33,Male,Vegetarian,Smoker,High,No,No,Yes,183,71,Urban,21.2,Normal weight,1
+367,78,Female,Balanced,Non-smoker,Moderate,Yes,Yes,Yes,172,67,Rural,22.6,Normal weight,1
+368,81,Female,Balanced,Non-smoker,Moderate,Yes,No,No,183,64,Rural,19.1,Normal weight,1
+369,80,Female,High Fat,Non-smoker,Moderate,Yes,Yes,Yes,150,74,Urban,32.9,Obesity,1
+370,86,Male,Vegetarian,Non-smoker,Moderate,No,No,No,132,81,Urban,46.5,Obesity,1
+371,39,Male,Balanced,Smoker,Moderate,Yes,No,Yes,167,62,Urban,22.2,Normal weight,1
+372,84,Female,Vegetarian,Smoker,High,No,Yes,No,166,75,Rural,27.2,Overweight,1
+373,43,Female,Balanced,Non-smoker,Low,No,Yes,Yes,163,77,Rural,29.0,Overweight,1
+374,33,Male,Balanced,Non-smoker,High,No,No,Yes,165,50,Rural,18.4,Underweight,1
+375,68,Male,Balanced,Smoker,Low,No,Yes,No,153,84,Urban,35.9,Obesity,1
+376,74,Male,High Fat,Non-smoker,Moderate,Yes,Yes,No,170,100,Urban,34.6,Obesity,1
+377,46,Female,High Fat,Smoker,Low,Yes,Yes,No,172,68,Urban,23.0,Normal weight,1
+378,86,Male,High Fat,Smoker,High,No,Yes,No,153,67,Urban,28.6,Overweight,1
+379,64,Male,Vegetarian,Smoker,High,Yes,Yes,Yes,161,66,Urban,25.5,Overweight,1
+380,79,Female,Vegetarian,Non-smoker,Low,No,Yes,No,162,79,Rural,30.1,Obesity,1
+381,86,Male,High Fat,Smoker,Moderate,No,Yes,No,158,77,Urban,30.8,Obesity,1
+382,33,Male,Vegetarian,Non-smoker,Moderate,No,Yes,No,153,46,Rural,19.7,Normal weight,1
+383,65,Male,Balanced,Smoker,High,Yes,No,No,165,57,Rural,20.9,Normal weight,0
+384,56,Female,Balanced,Non-smoker,Low,No,No,No,167,77,Rural,27.6,Overweight,1
+385,50,Female,Balanced,Non-smoker,Moderate,No,Yes,No,158,67,Rural,26.8,Overweight,1
+386,40,Female,High Fat,Non-smoker,Moderate,Yes,Yes,No,154,52,Rural,21.9,Normal weight,1
+387,27,Female,Vegetarian,Smoker,High,Yes,Yes,No,169,92,Urban,32.2,Obesity,1
+388,86,Female,High Fat,Smoker,Moderate,Yes,Yes,Yes,157,58,Urban,23.5,Normal weight,1
+389,51,Female,Vegetarian,Non-smoker,Low,Yes,Yes,No,161,70,Urban,27.0,Overweight,1
+390,69,Female,Balanced,Non-smoker,High,No,Yes,Yes,160,67,Rural,26.2,Overweight,1
+391,27,Male,High Fat,Non-smoker,High,Yes,Yes,No,177,53,Rural,16.9,Underweight,1
+392,36,Male,Vegetarian,Smoker,Low,No,Yes,No,157,72,Rural,29.2,Overweight,1
+393,75,Female,Vegetarian,Smoker,High,Yes,Yes,No,182,75,Rural,22.6,Normal weight,1
+394,18,Male,Balanced,Smoker,Moderate,Yes,No,Yes,172,62,Rural,21.0,Normal weight,1
+395,86,Male,High Fat,Smoker,Moderate,Yes,Yes,No,183,64,Rural,19.1,Normal weight,1
+396,21,Female,High Fat,Non-smoker,Low,Yes,Yes,No,171,79,Urban,27.0,Overweight,1
+397,33,Male,High Fat,Non-smoker,Moderate,Yes,Yes,Yes,162,40,Rural,15.2,Underweight,1
+398,41,Male,Balanced,Smoker,Low,Yes,No,Yes,155,57,Rural,23.7,Normal weight,1
+399,19,Male,High Fat,Smoker,Low,No,Yes,No,161,73,Urban,28.2,Overweight,1
+400,49,Male,Balanced,Non-smoker,Moderate,Yes,Yes,No,179,62,Rural,19.4,Normal weight,1
+401,41,Male,Balanced,Smoker,Low,Yes,No,No,164,61,Urban,22.7,Normal weight,0
+402,29,Female,Balanced,Smoker,Moderate,Yes,Yes,Yes,171,83,Urban,28.4,Overweight,1
+403,67,Female,Vegetarian,Smoker,High,Yes,Yes,No,167,60,Urban,21.5,Normal weight,1
+404,52,Female,High Fat,Smoker,High,No,Yes,Yes,167,99,Rural,35.5,Obesity,1
+405,50,Male,High Fat,Smoker,Low,Yes,Yes,No,167,43,Urban,15.4,Underweight,1
+406,50,Female,Balanced,Smoker,Moderate,Yes,Yes,No,169,36,Urban,12.6,Underweight,1
+407,78,Male,Balanced,Non-smoker,Moderate,Yes,Yes,No,156,83,Rural,34.1,Obesity,1
+408,68,Male,High Fat,Smoker,High,Yes,Yes,No,162,55,Urban,21.0,Normal weight,1
+409,60,Male,Balanced,Smoker,High,No,Yes,Yes,168,55,Rural,19.5,Normal weight,1
+410,29,Male,High Fat,Non-smoker,Moderate,Yes,Yes,No,166,84,Rural,30.5,Obesity,1
+411,84,Female,Vegetarian,Non-smoker,Low,No,Yes,Yes,160,62,Urban,24.2,Normal weight,1
+412,82,Female,Balanced,Non-smoker,High,Yes,Yes,Yes,169,83,Rural,29.1,Overweight,1
+413,50,Male,High Fat,Smoker,Low,No,Yes,No,157,60,Rural,24.3,Normal weight,1
+414,57,Female,Balanced,Non-smoker,Low,No,Yes,Yes,152,75,Urban,32.5,Obesity,1
+415,60,Male,High Fat,Smoker,High,Yes,Yes,No,167,62,Urban,22.2,Normal weight,1
+416,61,Female,High Fat,Smoker,Low,Yes,Yes,No,153,56,Urban,23.9,Normal weight,1
+417,46,Female,Balanced,Smoker,Low,No,No,No,167,95,Urban,34.1,Obesity,1
+418,30,Male,Vegetarian,Non-smoker,Moderate,No,Yes,No,145,86,Rural,40.9,Obesity,1
+419,29,Female,High Fat,Non-smoker,Low,Yes,Yes,Yes,157,59,Urban,23.9,Normal weight,1
+420,63,Male,High Fat,Non-smoker,Moderate,No,Yes,No,161,67,Urban,25.8,Overweight,1
+421,19,Female,High Fat,Non-smoker,High,No,Yes,No,148,92,Urban,42.0,Obesity,1
+422,52,Male,Vegetarian,Non-smoker,High,No,No,Yes,161,55,Rural,21.2,Normal weight,1
+423,25,Male,Vegetarian,Smoker,Moderate,Yes,No,No,176,55,Rural,17.8,Underweight,0
+424,43,Female,Balanced,Smoker,High,No,No,Yes,152,77,Rural,33.3,Obesity,1
+425,51,Female,Vegetarian,Smoker,Low,No,Yes,No,161,104,Rural,40.1,Obesity,1
+426,24,Male,Balanced,Smoker,Low,No,Yes,No,182,70,Rural,21.1,Normal weight,1
+427,85,Female,Balanced,Non-smoker,Low,Yes,Yes,No,154,85,Urban,35.8,Obesity,1
+428,75,Female,Vegetarian,Non-smoker,High,Yes,Yes,No,178,54,Rural,17.0,Underweight,1
+429,46,Male,Balanced,Smoker,Low,No,Yes,No,162,75,Rural,28.6,Overweight,1
+430,53,Male,Vegetarian,Non-smoker,High,Yes,Yes,No,166,64,Rural,23.2,Normal weight,1
+431,38,Female,Balanced,Non-smoker,Low,No,Yes,No,177,97,Urban,31.0,Obesity,1
+432,53,Male,Vegetarian,Smoker,Moderate,Yes,No,No,160,93,Urban,36.3,Obesity,1
+433,27,Male,Vegetarian,Smoker,High,Yes,No,No,171,104,Rural,35.6,Obesity,1
+434,41,Male,Balanced,Non-smoker,High,No,No,No,173,59,Urban,19.7,Normal weight,0
+435,81,Female,High Fat,Non-smoker,Low,Yes,Yes,No,158,70,Rural,28.0,Overweight,1
+436,66,Female,Balanced,Smoker,High,Yes,Yes,No,157,75,Urban,30.4,Obesity,1
+437,53,Male,Vegetarian,Smoker,High,Yes,No,No,162,60,Urban,22.9,Normal weight,0
+438,41,Female,High Fat,Smoker,Moderate,No,Yes,No,163,71,Rural,26.7,Overweight,1
+439,40,Male,Balanced,Non-smoker,Moderate,Yes,Yes,Yes,154,83,Urban,35.0,Obesity,1
+440,79,Female,Balanced,Smoker,Low,Yes,No,Yes,158,61,Rural,24.4,Normal weight,1
+441,54,Male,Balanced,Smoker,Moderate,No,No,No,130,59,Rural,34.9,Obesity,1
+442,29,Male,High Fat,Non-smoker,Low,Yes,Yes,No,161,58,Rural,22.4,Normal weight,1
+443,72,Female,Vegetarian,Non-smoker,Low,Yes,Yes,No,173,49,Urban,16.4,Underweight,1
+444,30,Male,Balanced,Non-smoker,Low,Yes,No,No,148,82,Urban,37.4,Obesity,1
+445,40,Female,Balanced,Non-smoker,High,Yes,Yes,No,160,59,Rural,23.0,Normal weight,1
+446,47,Female,Balanced,Non-smoker,Moderate,Yes,No,No,189,57,Rural,16.0,Underweight,0
+447,34,Male,Balanced,Smoker,Low,No,No,No,164,77,Urban,28.6,Overweight,1
+448,79,Male,Balanced,Smoker,Moderate,No,Yes,Yes,178,69,Rural,21.8,Normal weight,1
+449,30,Female,Vegetarian,Non-smoker,Low,Yes,Yes,No,154,62,Urban,26.1,Overweight,1
+450,76,Male,Vegetarian,Non-smoker,Moderate,Yes,Yes,Yes,169,82,Urban,28.7,Overweight,1
+451,36,Male,Balanced,Non-smoker,Moderate,Yes,No,No,153,61,Urban,26.1,Overweight,1
+452,66,Male,High Fat,Non-smoker,Low,No,Yes,No,169,37,Rural,13.0,Underweight,1
+453,29,Male,Vegetarian,Non-smoker,High,No,Yes,No,173,89,Rural,29.7,Overweight,1
+454,78,Male,High Fat,Smoker,Moderate,Yes,Yes,No,171,57,Urban,19.5,Normal weight,1
+455,36,Female,Vegetarian,Smoker,High,Yes,No,No,161,59,Rural,22.8,Normal weight,0
+456,26,Female,Balanced,Smoker,High,No,No,No,167,59,Rural,21.2,Normal weight,0
+457,88,Male,Vegetarian,Smoker,Low,Yes,No,No,167,70,Urban,25.1,Overweight,1
+458,45,Male,Balanced,Non-smoker,Low,No,No,Yes,171,65,Urban,22.2,Normal weight,1
+459,69,Male,Vegetarian,Smoker,Low,No,Yes,Yes,163,84,Rural,31.6,Obesity,1
+460,33,Female,Balanced,Non-smoker,Moderate,Yes,Yes,No,174,94,Urban,31.0,Obesity,1
+461,86,Male,Balanced,Non-smoker,Low,No,Yes,No,179,59,Rural,18.4,Underweight,1
+462,29,Female,Balanced,Non-smoker,Low,Yes,Yes,No,161,55,Urban,21.2,Normal weight,1
+463,42,Female,Balanced,Smoker,Moderate,Yes,Yes,No,165,62,Urban,22.8,Normal weight,1
+464,69,Female,High Fat,Non-smoker,Moderate,Yes,Yes,Yes,155,76,Rural,31.6,Obesity,1
+465,70,Male,Balanced,Smoker,Low,Yes,No,No,168,68,Rural,24.1,Normal weight,1
+466,40,Female,High Fat,Smoker,Low,Yes,Yes,No,168,62,Rural,22.0,Normal weight,1
+467,33,Male,High Fat,Non-smoker,Low,Yes,Yes,Yes,165,50,Rural,18.4,Underweight,1
+468,74,Female,Balanced,Non-smoker,Low,No,Yes,Yes,166,36,Rural,13.1,Underweight,1
+469,56,Male,High Fat,Non-smoker,High,No,Yes,Yes,184,54,Urban,15.9,Underweight,1
+470,70,Female,Vegetarian,Smoker,High,No,Yes,No,136,88,Urban,47.6,Obesity,1
+471,59,Male,Balanced,Non-smoker,Low,No,No,No,160,76,Rural,29.7,Overweight,1
+472,75,Female,High Fat,Smoker,High,Yes,Yes,No,161,67,Urban,25.8,Overweight,1
+473,56,Male,Balanced,Non-smoker,Moderate,No,Yes,No,179,80,Rural,25.0,Overweight,1
+474,31,Male,Balanced,Non-smoker,High,No,No,Yes,169,50,Urban,17.5,Underweight,1
+475,22,Male,Balanced,Smoker,High,No,No,No,169,70,Urban,24.5,Normal weight,0
+476,52,Male,High Fat,Smoker,Low,Yes,Yes,No,177,43,Rural,13.7,Underweight,1
+477,35,Female,Vegetarian,Smoker,High,No,No,No,163,75,Rural,28.2,Overweight,1
+478,26,Female,Vegetarian,Smoker,High,Yes,No,Yes,171,73,Rural,25.0,Overweight,1
+479,75,Male,High Fat,Smoker,High,No,Yes,Yes,159,74,Urban,29.3,Overweight,1
+480,34,Female,Balanced,Smoker,High,Yes,No,Yes,154,87,Rural,36.7,Obesity,1
+481,24,Male,High Fat,Non-smoker,Moderate,Yes,Yes,No,182,81,Rural,24.5,Normal weight,1
+482,63,Male,High Fat,Non-smoker,Low,No,Yes,No,168,51,Rural,18.1,Underweight,1
+483,30,Female,High Fat,Smoker,Low,Yes,Yes,No,171,87,Rural,29.8,Overweight,1
+484,57,Male,Balanced,Non-smoker,Moderate,Yes,Yes,No,154,66,Rural,27.8,Overweight,1
+485,59,Male,High Fat,Smoker,High,No,Yes,Yes,170,40,Rural,13.8,Underweight,1
+486,26,Female,Balanced,Non-smoker,Moderate,No,No,No,182,68,Urban,20.5,Normal weight,0
+487,67,Male,High Fat,Non-smoker,High,No,Yes,No,162,79,Urban,30.1,Obesity,1
+488,44,Male,Vegetarian,Smoker,Moderate,Yes,No,No,152,54,Urban,23.4,Normal weight,0
+489,83,Male,High Fat,Smoker,Low,Yes,Yes,No,166,89,Urban,32.3,Obesity,1
+490,22,Male,High Fat,Smoker,Low,Yes,Yes,No,154,56,Rural,23.6,Normal weight,1
+491,46,Female,Vegetarian,Non-smoker,Low,No,Yes,No,149,62,Rural,27.9,Overweight,1
+492,54,Female,Balanced,Smoker,High,Yes,Yes,Yes,157,60,Urban,24.3,Normal weight,1
+493,55,Female,Balanced,Non-smoker,High,Yes,Yes,No,160,44,Urban,17.2,Underweight,1
+494,25,Male,High Fat,Smoker,Moderate,Yes,Yes,No,155,55,Urban,22.9,Normal weight,1
+495,82,Male,Vegetarian,Non-smoker,Moderate,Yes,Yes,Yes,178,59,Rural,18.6,Normal weight,1
+496,34,Female,Balanced,Non-smoker,Low,Yes,No,Yes,183,68,Rural,20.3,Normal weight,1
+497,88,Male,High Fat,Smoker,High,Yes,Yes,Yes,171,24,Rural,8.2,Underweight,1
+498,62,Male,Vegetarian,Non-smoker,Moderate,Yes,Yes,No,168,80,Urban,28.3,Overweight,1
+499,21,Male,Balanced,Non-smoker,High,No,No,Yes,163,80,Urban,30.1,Obesity,1
+500,53,Male,Balanced,Smoker,High,No,No,Yes,156,87,Urban,35.7,Obesity,1
+501,87,Female,Vegetarian,Non-smoker,Low,No,Yes,Yes,181,47,Urban,14.3,Underweight,1
+502,48,Female,Vegetarian,Smoker,Low,Yes,Yes,Yes,164,65,Urban,24.2,Normal weight,1
+503,36,Female,Vegetarian,Smoker,High,Yes,No,Yes,160,84,Rural,32.8,Obesity,1
+504,78,Male,Vegetarian,Smoker,High,No,Yes,Yes,175,85,Rural,27.8,Overweight,1
+505,71,Female,High Fat,Smoker,High,Yes,Yes,No,164,92,Rural,34.2,Obesity,1
+506,56,Female,Vegetarian,Non-smoker,High,No,Yes,No,174,71,Rural,23.5,Normal weight,1
+507,36,Male,Balanced,Non-smoker,Low,Yes,No,Yes,160,69,Rural,27.0,Overweight,1
+508,56,Male,Balanced,Non-smoker,Moderate,Yes,Yes,No,175,46,Urban,15.0,Underweight,1
+509,84,Female,High Fat,Smoker,Low,No,Yes,No,174,85,Rural,28.1,Overweight,1
+510,62,Female,Balanced,Non-smoker,Moderate,No,No,No,178,63,Urban,19.9,Normal weight,0
+511,30,Female,Balanced,Non-smoker,High,No,No,Yes,157,70,Rural,28.4,Overweight,1
+512,75,Female,Vegetarian,Smoker,Moderate,No,No,Yes,164,69,Urban,25.7,Overweight,1
+513,37,Male,Balanced,Smoker,Low,No,No,No,184,34,Urban,10.0,Underweight,0
+514,89,Female,High Fat,Non-smoker,Low,Yes,Yes,No,162,57,Urban,21.7,Normal weight,1
+515,78,Female,Vegetarian,Smoker,High,Yes,No,Yes,173,76,Urban,25.4,Overweight,1
+516,56,Male,Vegetarian,Smoker,Low,Yes,Yes,No,187,69,Urban,19.7,Normal weight,1
+517,18,Female,High Fat,Smoker,High,No,Yes,No,146,76,Urban,35.7,Obesity,1
+518,20,Male,Vegetarian,Smoker,Low,No,Yes,No,162,81,Rural,30.9,Obesity,1
+519,79,Male,Vegetarian,Non-smoker,Low,No,Yes,No,165,57,Urban,20.9,Normal weight,1
+520,80,Male,High Fat,Smoker,High,No,Yes,No,147,62,Urban,28.7,Overweight,1
+521,42,Female,Vegetarian,Smoker,Moderate,No,No,No,160,67,Rural,26.2,Overweight,1
+522,73,Female,High Fat,Smoker,Low,No,Yes,Yes,155,81,Urban,33.7,Obesity,1
+523,50,Male,High Fat,Smoker,Moderate,Yes,Yes,Yes,173,66,Rural,22.1,Normal weight,1
+524,55,Female,Balanced,Smoker,Low,Yes,Yes,No,147,43,Rural,19.9,Normal weight,1
+525,23,Female,Balanced,Smoker,Low,Yes,Yes,Yes,183,67,Urban,20.0,Normal weight,1
+526,75,Male,Vegetarian,Smoker,Low,Yes,Yes,No,171,80,Urban,27.4,Overweight,1
+527,61,Male,Vegetarian,Smoker,Low,Yes,Yes,No,154,90,Rural,37.9,Obesity,1
+528,62,Female,High Fat,Non-smoker,Moderate,No,Yes,No,175,74,Urban,24.2,Normal weight,1
+529,49,Male,Vegetarian,Smoker,Moderate,No,No,No,170,47,Rural,16.3,Underweight,0
+530,62,Female,High Fat,Non-smoker,Low,No,Yes,Yes,164,63,Urban,23.4,Normal weight,1
+531,78,Female,High Fat,Smoker,Low,No,Yes,No,157,77,Rural,31.2,Obesity,1
+532,64,Female,Vegetarian,Smoker,Moderate,No,Yes,No,170,82,Urban,28.4,Overweight,1
+533,38,Female,High Fat,Smoker,High,No,Yes,Yes,166,77,Urban,27.9,Overweight,1
+534,53,Male,Balanced,Smoker,High,Yes,No,Yes,158,66,Rural,26.4,Overweight,1
+535,36,Male,Vegetarian,Non-smoker,Moderate,No,Yes,Yes,151,82,Rural,36.0,Obesity,1
+536,37,Male,Balanced,Smoker,Low,No,Yes,No,156,60,Rural,24.7,Normal weight,1
+537,74,Male,Vegetarian,Smoker,Low,No,Yes,Yes,159,72,Rural,28.5,Overweight,1
+538,35,Female,High Fat,Non-smoker,High,No,Yes,No,176,81,Urban,26.1,Overweight,1
+539,64,Female,Vegetarian,Non-smoker,High,Yes,No,No,173,78,Rural,26.1,Overweight,1
+540,66,Male,Balanced,Smoker,Moderate,Yes,No,No,160,78,Rural,30.5,Obesity,1
+541,31,Female,High Fat,Non-smoker,High,No,Yes,Yes,160,78,Urban,30.5,Obesity,1
+542,32,Female,Vegetarian,Non-smoker,Moderate,Yes,No,No,174,54,Urban,17.8,Underweight,0
+543,48,Female,Vegetarian,Non-smoker,High,Yes,Yes,Yes,167,70,Rural,25.1,Overweight,1
+544,18,Male,Vegetarian,Smoker,High,No,No,Yes,167,56,Urban,20.1,Normal weight,1
+545,71,Male,Balanced,Smoker,High,No,No,Yes,157,65,Rural,26.4,Overweight,1
+546,20,Male,Balanced,Smoker,Low,No,Yes,No,163,52,Urban,19.6,Normal weight,1
+547,33,Female,Vegetarian,Non-smoker,Low,No,No,No,165,75,Rural,27.5,Overweight,1
+548,74,Male,High Fat,Smoker,Low,No,Yes,No,164,40,Urban,14.9,Underweight,1
+549,29,Male,High Fat,Non-smoker,High,Yes,Yes,No,172,79,Rural,26.7,Overweight,1
+550,33,Male,Balanced,Smoker,Moderate,No,No,Yes,172,70,Rural,23.7,Normal weight,1
+551,89,Male,High Fat,Smoker,Moderate,No,Yes,Yes,155,98,Urban,40.8,Obesity,1
+552,41,Male,Balanced,Non-smoker,Moderate,No,Yes,No,159,66,Urban,26.1,Overweight,1
+553,45,Male,Vegetarian,Smoker,Moderate,Yes,No,Yes,158,66,Rural,26.4,Overweight,1
+554,25,Female,Balanced,Non-smoker,Low,No,Yes,No,178,80,Rural,25.2,Overweight,1
+555,53,Female,Balanced,Non-smoker,Low,No,No,No,187,67,Urban,19.2,Normal weight,0
+556,25,Male,Vegetarian,Smoker,High,No,No,No,160,74,Urban,28.9,Overweight,1
+557,75,Male,High Fat,Non-smoker,High,Yes,Yes,No,163,84,Urban,31.6,Obesity,1
+558,77,Female,Balanced,Smoker,Moderate,No,Yes,Yes,173,65,Urban,21.7,Normal weight,1
+559,67,Female,Balanced,Smoker,Low,No,No,Yes,157,87,Urban,35.3,Obesity,1
+560,45,Male,Vegetarian,Non-smoker,Moderate,No,Yes,Yes,173,44,Urban,14.7,Underweight,1
+561,58,Male,High Fat,Smoker,High,Yes,Yes,No,164,94,Urban,34.9,Obesity,1
+562,81,Male,Balanced,Non-smoker,High,No,Yes,No,147,43,Urban,19.9,Normal weight,1
+563,44,Male,Vegetarian,Smoker,Moderate,No,Yes,No,151,90,Urban,39.5,Obesity,1
+564,80,Female,Balanced,Smoker,High,No,Yes,No,161,42,Rural,16.2,Underweight,1
+565,34,Male,Vegetarian,Smoker,Moderate,Yes,No,No,177,99,Urban,31.6,Obesity,1
+566,50,Male,High Fat,Smoker,Low,No,Yes,No,156,72,Urban,29.6,Overweight,1
+567,46,Male,High Fat,Smoker,Moderate,No,Yes,No,159,55,Rural,21.8,Normal weight,1
+568,30,Male,High Fat,Non-smoker,Low,No,Yes,No,167,97,Rural,34.8,Obesity,1
+569,63,Female,High Fat,Non-smoker,Low,Yes,Yes,No,148,53,Rural,24.2,Normal weight,1
+570,52,Female,Balanced,Non-smoker,High,Yes,No,No,167,66,Rural,23.7,Normal weight,0
+571,23,Female,Balanced,Non-smoker,High,No,No,No,149,109,Rural,49.1,Obesity,1
+572,86,Male,High Fat,Non-smoker,High,Yes,Yes,No,170,75,Rural,26.0,Overweight,1
+573,64,Male,High Fat,Non-smoker,Moderate,Yes,Yes,No,156,39,Urban,16.0,Underweight,1
+574,42,Female,High Fat,Smoker,Moderate,Yes,Yes,No,155,65,Rural,27.1,Overweight,1
+575,83,Male,Balanced,Smoker,High,No,No,Yes,167,64,Rural,22.9,Normal weight,1
+576,27,Male,High Fat,Non-smoker,Moderate,No,Yes,No,172,72,Rural,24.3,Normal weight,1
+577,73,Female,High Fat,Non-smoker,High,Yes,Yes,Yes,168,69,Urban,24.4,Normal weight,1
+578,47,Female,High Fat,Smoker,Moderate,Yes,Yes,No,167,78,Rural,28.0,Overweight,1
+579,22,Female,Vegetarian,Smoker,Low,Yes,No,No,167,47,Urban,16.9,Underweight,0
+580,50,Female,High Fat,Smoker,Low,No,Yes,Yes,168,61,Rural,21.6,Normal weight,1
+581,82,Male,Vegetarian,Non-smoker,High,No,Yes,No,169,74,Rural,25.9,Overweight,1
+582,35,Male,Vegetarian,Non-smoker,Moderate,Yes,No,No,161,58,Urban,22.4,Normal weight,0
+583,66,Female,High Fat,Non-smoker,Moderate,Yes,Yes,No,171,86,Urban,29.4,Overweight,1
+584,28,Male,Vegetarian,Smoker,Low,Yes,No,No,157,58,Rural,23.5,Normal weight,0
+585,43,Female,High Fat,Smoker,Low,Yes,Yes,Yes,175,72,Urban,23.5,Normal weight,1
+586,80,Female,Balanced,Non-smoker,High,No,Yes,Yes,172,68,Urban,23.0,Normal weight,1
+587,76,Male,Balanced,Non-smoker,Low,Yes,Yes,No,186,54,Rural,15.6,Underweight,1
+588,44,Female,Balanced,Smoker,High,No,No,No,170,70,Rural,24.2,Normal weight,0
+589,66,Male,Balanced,Smoker,Low,Yes,Yes,No,174,50,Rural,16.5,Underweight,1
+590,50,Male,Vegetarian,Smoker,Low,Yes,Yes,No,149,63,Urban,28.4,Overweight,1
+591,18,Male,High Fat,Smoker,Moderate,Yes,Yes,No,174,70,Rural,23.1,Normal weight,1
+592,38,Male,High Fat,Non-smoker,Low,Yes,Yes,No,176,48,Rural,15.5,Underweight,1
+593,72,Female,High Fat,Smoker,Low,Yes,Yes,Yes,180,79,Urban,24.4,Normal weight,1
+594,23,Male,Balanced,Smoker,High,No,Yes,No,166,73,Urban,26.5,Overweight,1
+595,86,Female,Balanced,Smoker,Low,Yes,Yes,No,161,77,Rural,29.7,Overweight,1
+596,22,Female,High Fat,Non-smoker,High,Yes,Yes,No,154,70,Urban,29.5,Overweight,1
+597,20,Female,Balanced,Non-smoker,Low,Yes,No,No,155,52,Rural,21.6,Normal weight,0
+598,70,Female,High Fat,Smoker,Low,No,Yes,Yes,164,69,Urban,25.7,Overweight,1
+599,40,Male,High Fat,Smoker,High,No,Yes,No,147,79,Rural,36.6,Obesity,1
+600,70,Male,High Fat,Smoker,Moderate,No,Yes,No,157,52,Urban,21.1,Normal weight,1
+601,54,Female,High Fat,Non-smoker,High,No,Yes,Yes,165,53,Urban,19.5,Normal weight,1
+602,34,Female,High Fat,Non-smoker,High,Yes,Yes,No,165,66,Urban,24.2,Normal weight,1
+603,18,Male,High Fat,Non-smoker,High,Yes,Yes,No,155,64,Urban,26.6,Overweight,1
+604,68,Female,High Fat,Smoker,Moderate,Yes,Yes,No,152,69,Rural,29.9,Overweight,1
+605,62,Male,Balanced,Non-smoker,Low,No,Yes,No,154,65,Urban,27.4,Overweight,1
+606,21,Female,High Fat,Smoker,High,Yes,Yes,Yes,162,72,Rural,27.4,Overweight,1
+607,79,Male,High Fat,Smoker,High,Yes,Yes,No,186,88,Urban,25.4,Overweight,1
+608,82,Female,Balanced,Smoker,Moderate,No,Yes,No,175,78,Urban,25.5,Overweight,1
+609,49,Female,Balanced,Non-smoker,High,No,Yes,Yes,167,70,Rural,25.1,Overweight,1
+610,51,Male,Balanced,Smoker,Low,No,Yes,No,170,53,Urban,18.3,Underweight,1
+611,89,Female,High Fat,Non-smoker,Moderate,Yes,Yes,No,175,59,Urban,19.3,Normal weight,1
+612,56,Female,Vegetarian,Non-smoker,Low,Yes,No,Yes,171,82,Rural,28.0,Overweight,1
+613,43,Male,Vegetarian,Smoker,Low,No,Yes,Yes,161,62,Urban,23.9,Normal weight,1
+614,51,Female,Balanced,Smoker,Moderate,Yes,No,No,156,55,Rural,22.6,Normal weight,0
+615,71,Male,Vegetarian,Non-smoker,High,No,Yes,Yes,163,101,Urban,38.0,Obesity,1
+616,20,Male,Balanced,Smoker,Low,No,No,No,175,92,Urban,30.0,Obesity,1
+617,67,Female,High Fat,Non-smoker,Low,Yes,Yes,Yes,162,68,Urban,25.9,Overweight,1
+618,29,Female,Vegetarian,Smoker,Low,No,No,No,153,53,Rural,22.6,Normal weight,0
+619,82,Female,High Fat,Non-smoker,Low,No,Yes,No,147,80,Urban,37.0,Obesity,1
+620,71,Female,Vegetarian,Non-smoker,Moderate,No,Yes,No,163,62,Urban,23.3,Normal weight,1
+621,22,Female,High Fat,Non-smoker,Moderate,Yes,Yes,No,154,83,Urban,35.0,Obesity,1
+622,74,Female,Vegetarian,Non-smoker,Low,No,Yes,No,160,62,Urban,24.2,Normal weight,1
+623,34,Female,High Fat,Smoker,High,No,Yes,No,179,94,Urban,29.3,Overweight,1
+624,64,Male,High Fat,Smoker,Low,No,Yes,Yes,164,62,Urban,23.1,Normal weight,1
+625,40,Female,Vegetarian,Non-smoker,High,No,No,No,157,105,Urban,42.6,Obesity,1
+626,31,Male,High Fat,Non-smoker,Low,No,Yes,No,168,72,Urban,25.5,Overweight,1
+627,83,Female,High Fat,Smoker,High,No,Yes,No,184,90,Urban,26.6,Overweight,1
+628,68,Female,High Fat,Smoker,Low,No,Yes,No,163,61,Rural,23.0,Normal weight,1
+629,55,Male,Vegetarian,Smoker,High,Yes,Yes,No,141,50,Urban,25.1,Overweight,1
+630,81,Female,Vegetarian,Smoker,Low,Yes,Yes,Yes,171,35,Rural,12.0,Underweight,1
+631,55,Female,High Fat,Smoker,Low,No,Yes,No,168,89,Rural,31.5,Obesity,1
+632,67,Male,High Fat,Smoker,High,Yes,Yes,No,165,71,Rural,26.1,Overweight,1
+633,47,Female,Vegetarian,Non-smoker,Moderate,Yes,No,Yes,162,51,Urban,19.4,Normal weight,1
+634,68,Female,Vegetarian,Smoker,High,No,Yes,Yes,156,89,Rural,36.6,Obesity,1
+635,80,Female,High Fat,Smoker,Moderate,Yes,Yes,No,180,87,Rural,26.9,Overweight,1
+636,69,Male,High Fat,Non-smoker,Low,No,Yes,No,146,90,Rural,42.2,Obesity,1
+637,55,Female,High Fat,Smoker,High,No,Yes,Yes,161,49,Urban,18.9,Normal weight,1
+638,47,Female,Balanced,Smoker,High,No,No,No,161,88,Rural,33.9,Obesity,1
+639,68,Female,Vegetarian,Smoker,High,No,No,No,173,75,Urban,25.1,Overweight,1
+640,22,Female,Balanced,Smoker,Moderate,No,No,No,177,91,Rural,29.0,Overweight,1
+641,46,Male,Vegetarian,Smoker,Moderate,Yes,Yes,No,162,78,Rural,29.7,Overweight,1
+642,21,Male,Vegetarian,Non-smoker,Low,No,No,Yes,166,72,Urban,26.1,Overweight,1
+643,27,Female,Vegetarian,Smoker,Moderate,Yes,No,No,167,88,Urban,31.6,Obesity,1
+644,73,Female,Vegetarian,Non-smoker,Moderate,No,Yes,No,175,82,Rural,26.8,Overweight,1
+645,34,Male,Vegetarian,Non-smoker,Low,No,No,Yes,175,86,Rural,28.1,Overweight,1
+646,34,Male,Vegetarian,Smoker,High,No,Yes,No,159,62,Rural,24.5,Normal weight,1
+647,86,Female,Vegetarian,Non-smoker,High,Yes,Yes,No,169,67,Urban,23.5,Normal weight,1
+648,51,Male,Balanced,Smoker,Low,No,No,Yes,168,43,Urban,15.2,Underweight,1
+649,23,Female,High Fat,Non-smoker,High,No,Yes,Yes,163,61,Rural,23.0,Normal weight,1
+650,70,Male,High Fat,Non-smoker,Moderate,No,Yes,Yes,168,81,Rural,28.7,Overweight,1
+651,83,Male,Balanced,Smoker,Low,No,No,Yes,165,78,Urban,28.7,Overweight,1
+652,60,Male,Balanced,Smoker,Low,Yes,Yes,No,166,55,Urban,20.0,Normal weight,1
+653,40,Male,Balanced,Smoker,Low,No,Yes,Yes,151,89,Rural,39.0,Obesity,1
+654,72,Female,Balanced,Smoker,High,Yes,No,Yes,155,114,Urban,47.5,Obesity,1
+655,33,Male,Vegetarian,Smoker,Low,No,No,Yes,173,56,Rural,18.7,Normal weight,1
+656,25,Male,High Fat,Non-smoker,Low,Yes,Yes,No,152,66,Urban,28.6,Overweight,1
+657,21,Female,Vegetarian,Non-smoker,Low,Yes,Yes,No,169,60,Rural,21.0,Normal weight,1
+658,21,Male,High Fat,Non-smoker,High,No,Yes,Yes,164,68,Rural,25.3,Overweight,1
+659,73,Male,High Fat,Non-smoker,Moderate,No,Yes,No,175,74,Rural,24.2,Normal weight,1
+660,42,Female,Balanced,Non-smoker,Low,Yes,Yes,Yes,171,59,Urban,20.2,Normal weight,1
+661,84,Male,Vegetarian,Non-smoker,Moderate,No,No,Yes,160,65,Rural,25.4,Overweight,1
+662,84,Female,Balanced,Non-smoker,High,No,Yes,No,162,71,Rural,27.1,Overweight,1
+663,44,Female,Vegetarian,Smoker,High,No,No,No,145,77,Urban,36.6,Obesity,1
+664,49,Female,High Fat,Smoker,High,Yes,Yes,Yes,163,91,Rural,34.3,Obesity,1
+665,67,Female,Balanced,Non-smoker,High,No,Yes,Yes,152,69,Rural,29.9,Overweight,1
+666,78,Male,Balanced,Non-smoker,Moderate,No,No,No,162,61,Rural,23.2,Normal weight,1
+667,68,Female,High Fat,Smoker,Low,No,Yes,No,158,80,Urban,32.0,Obesity,1
+668,36,Male,High Fat,Smoker,High,Yes,Yes,No,156,76,Urban,31.2,Obesity,1
+669,38,Male,High Fat,Smoker,High,No,Yes,No,176,67,Urban,21.6,Normal weight,1
+670,22,Male,Balanced,Smoker,Moderate,Yes,Yes,No,152,77,Urban,33.3,Obesity,1
+671,59,Male,Vegetarian,Non-smoker,Moderate,No,No,Yes,155,64,Rural,26.6,Overweight,1
+672,78,Male,Balanced,Smoker,High,Yes,No,Yes,158,62,Urban,24.8,Normal weight,1
+673,39,Male,Vegetarian,Non-smoker,Low,No,No,No,160,41,Urban,16.0,Underweight,0
+674,38,Male,Balanced,Non-smoker,Low,No,No,No,156,65,Urban,26.7,Overweight,1
+675,87,Male,Balanced,Non-smoker,High,Yes,Yes,No,161,43,Rural,16.6,Underweight,1
+676,18,Male,High Fat,Smoker,Moderate,Yes,Yes,No,168,60,Rural,21.3,Normal weight,1
+677,22,Male,Vegetarian,Smoker,High,Yes,Yes,No,171,78,Rural,26.7,Overweight,1
+678,29,Female,Balanced,Non-smoker,High,No,No,No,171,47,Urban,16.1,Underweight,0
+679,63,Female,Balanced,Non-smoker,Moderate,No,Yes,Yes,145,67,Rural,31.9,Obesity,1
+680,51,Female,High Fat,Non-smoker,High,No,Yes,No,168,70,Rural,24.8,Normal weight,1
+681,66,Male,High Fat,Smoker,High,No,Yes,Yes,169,66,Urban,23.1,Normal weight,1
+682,62,Female,Vegetarian,Non-smoker,High,Yes,Yes,Yes,158,62,Rural,24.8,Normal weight,1
+683,44,Female,Balanced,Smoker,Moderate,No,Yes,Yes,181,74,Urban,22.6,Normal weight,1
+684,43,Female,Vegetarian,Non-smoker,Low,No,Yes,No,175,76,Urban,24.8,Normal weight,1
+685,64,Male,Balanced,Non-smoker,Low,No,Yes,Yes,163,70,Rural,26.3,Overweight,1
+686,73,Male,Vegetarian,Non-smoker,Moderate,No,No,Yes,159,63,Urban,24.9,Overweight,1
+687,80,Male,High Fat,Smoker,Low,No,Yes,Yes,181,82,Urban,25.0,Overweight,1
+688,65,Male,Balanced,Smoker,High,No,Yes,No,164,50,Urban,18.6,Normal weight,1
+689,78,Female,Vegetarian,Non-smoker,Low,No,Yes,Yes,165,80,Urban,29.4,Overweight,1
+690,43,Female,High Fat,Smoker,High,Yes,Yes,No,165,76,Urban,27.9,Overweight,1
+691,53,Female,High Fat,Non-smoker,Low,No,Yes,No,188,72,Urban,20.4,Normal weight,1
+692,18,Female,Vegetarian,Smoker,Moderate,No,No,Yes,162,69,Rural,26.3,Overweight,1
+693,25,Male,Balanced,Smoker,Low,No,No,No,164,41,Urban,15.2,Underweight,0
+694,69,Male,Balanced,Smoker,Low,No,Yes,No,156,90,Urban,37.0,Obesity,1
+695,64,Male,High Fat,Non-smoker,Low,Yes,Yes,No,161,82,Urban,31.6,Obesity,1
+696,73,Female,Balanced,Smoker,Moderate,Yes,No,No,154,55,Urban,23.2,Normal weight,1
+697,31,Male,Balanced,Smoker,Low,Yes,No,Yes,156,81,Rural,33.3,Obesity,1
+698,45,Male,Balanced,Non-smoker,Moderate,Yes,No,No,146,72,Rural,33.8,Obesity,1
+699,19,Female,High Fat,Non-smoker,High,Yes,Yes,No,173,61,Urban,20.4,Normal weight,1
+700,43,Female,Vegetarian,Non-smoker,Low,Yes,No,No,166,87,Rural,31.6,Obesity,1
+701,31,Male,Balanced,Non-smoker,Moderate,No,No,Yes,167,63,Urban,22.6,Normal weight,1
+702,76,Male,High Fat,Smoker,Moderate,Yes,Yes,Yes,164,90,Urban,33.5,Obesity,1
+703,73,Male,High Fat,Smoker,Low,Yes,Yes,Yes,165,78,Urban,28.7,Overweight,1
+704,24,Male,Vegetarian,Smoker,High,No,Yes,Yes,181,84,Urban,25.6,Overweight,1
+705,20,Male,Balanced,Smoker,Moderate,Yes,Yes,Yes,157,78,Rural,31.6,Obesity,1
+706,40,Male,Balanced,Smoker,Low,No,Yes,No,167,77,Rural,27.6,Overweight,1
+707,35,Female,Vegetarian,Non-smoker,High,No,Yes,No,167,73,Urban,26.2,Overweight,1
+708,55,Female,Vegetarian,Smoker,Moderate,Yes,Yes,No,176,59,Urban,19.0,Normal weight,1
+709,32,Female,High Fat,Smoker,Moderate,No,Yes,No,169,70,Rural,24.5,Normal weight,1
+710,81,Male,High Fat,Smoker,High,Yes,Yes,No,169,83,Rural,29.1,Overweight,1
+711,45,Female,Vegetarian,Non-smoker,High,Yes,Yes,No,152,80,Urban,34.6,Obesity,1
+712,56,Male,Balanced,Non-smoker,Low,No,No,No,156,77,Rural,31.6,Obesity,1
+713,74,Male,High Fat,Smoker,Low,No,Yes,No,153,38,Urban,16.2,Underweight,1
+714,34,Female,High Fat,Non-smoker,Moderate,Yes,Yes,No,140,66,Rural,33.7,Obesity,1
+715,61,Male,Balanced,Non-smoker,High,No,Yes,No,168,65,Rural,23.0,Normal weight,1
+716,42,Male,High Fat,Non-smoker,High,No,Yes,No,162,53,Rural,20.2,Normal weight,1
+717,34,Female,Balanced,Non-smoker,High,Yes,No,Yes,168,83,Rural,29.4,Overweight,1
+718,30,Female,Balanced,Non-smoker,Moderate,Yes,Yes,No,165,39,Urban,14.3,Underweight,1
+719,42,Female,Balanced,Non-smoker,High,No,Yes,No,167,82,Urban,29.4,Overweight,1
+720,85,Male,Vegetarian,Non-smoker,High,Yes,Yes,Yes,178,89,Rural,28.1,Overweight,1
+721,27,Female,Vegetarian,Smoker,Moderate,Yes,No,Yes,165,66,Urban,24.2,Normal weight,1
+722,84,Female,Vegetarian,Smoker,Low,Yes,Yes,No,171,68,Rural,23.3,Normal weight,1
+723,35,Male,Balanced,Non-smoker,Low,Yes,Yes,No,161,84,Rural,32.4,Obesity,1
+724,51,Female,Balanced,Smoker,Moderate,Yes,Yes,No,173,58,Urban,19.4,Normal weight,1
+725,25,Female,Vegetarian,Smoker,High,Yes,Yes,No,152,79,Urban,34.2,Obesity,1
+726,57,Female,High Fat,Non-smoker,Moderate,Yes,Yes,No,146,56,Urban,26.3,Overweight,1
+727,59,Male,Balanced,Smoker,Low,No,Yes,No,186,51,Rural,14.7,Underweight,1
+728,58,Male,High Fat,Non-smoker,Low,Yes,Yes,No,183,74,Urban,22.1,Normal weight,1
+729,23,Male,High Fat,Non-smoker,Moderate,No,Yes,No,145,69,Urban,32.8,Obesity,1
+730,69,Male,Balanced,Non-smoker,Moderate,No,Yes,No,164,44,Urban,16.4,Underweight,1
+731,43,Female,Balanced,Smoker,Low,No,No,No,166,91,Urban,33.0,Obesity,1
+732,81,Male,High Fat,Smoker,Moderate,Yes,Yes,Yes,172,63,Rural,21.3,Normal weight,1
+733,76,Male,High Fat,Smoker,Low,Yes,Yes,No,182,77,Rural,23.2,Normal weight,1
+734,73,Female,Vegetarian,Smoker,Moderate,No,Yes,No,154,94,Rural,39.6,Obesity,1
+735,76,Female,Vegetarian,Non-smoker,Moderate,Yes,Yes,Yes,154,73,Rural,30.8,Obesity,1
+736,87,Female,Balanced,Non-smoker,Moderate,No,Yes,Yes,164,89,Rural,33.1,Obesity,1
+737,50,Male,Vegetarian,Smoker,Low,Yes,No,No,155,57,Rural,23.7,Normal weight,0
+738,70,Male,Vegetarian,Non-smoker,Moderate,Yes,Yes,No,137,91,Rural,48.5,Obesity,1
+739,39,Male,Vegetarian,Non-smoker,Low,No,No,Yes,162,57,Urban,21.7,Normal weight,1
+740,38,Female,Vegetarian,Smoker,Low,No,Yes,No,173,61,Rural,20.4,Normal weight,1
+741,87,Female,High Fat,Non-smoker,Moderate,No,Yes,No,164,48,Rural,17.8,Underweight,1
+742,87,Male,Balanced,Smoker,Moderate,Yes,No,No,171,74,Rural,25.3,Overweight,1
+743,21,Female,Vegetarian,Non-smoker,Low,No,Yes,No,169,79,Rural,27.7,Overweight,1
+744,79,Female,High Fat,Smoker,Low,Yes,Yes,No,154,81,Urban,34.2,Obesity,1
+745,79,Female,High Fat,Non-smoker,High,Yes,Yes,No,165,48,Rural,17.6,Underweight,1
+746,41,Male,High Fat,Non-smoker,Low,Yes,Yes,No,149,75,Rural,33.8,Obesity,1
+747,72,Female,Vegetarian,Smoker,High,No,Yes,No,159,76,Urban,30.1,Obesity,1
+748,26,Female,Vegetarian,Smoker,High,No,No,No,165,79,Rural,29.0,Overweight,1
+749,20,Male,Balanced,Smoker,High,No,No,No,164,58,Rural,21.6,Normal weight,0
+750,48,Male,Vegetarian,Smoker,Moderate,Yes,No,No,152,32,Rural,13.9,Underweight,0
+751,57,Female,Vegetarian,Non-smoker,Moderate,Yes,Yes,No,154,80,Rural,33.7,Obesity,1
+752,53,Female,High Fat,Non-smoker,Low,No,Yes,No,167,67,Rural,24.0,Normal weight,1
+753,41,Male,Balanced,Smoker,High,Yes,Yes,Yes,173,74,Rural,24.7,Normal weight,1
+754,23,Male,Vegetarian,Non-smoker,Moderate,Yes,Yes,Yes,162,68,Rural,25.9,Overweight,1
+755,83,Female,Vegetarian,Smoker,Moderate,No,No,No,162,73,Urban,27.8,Overweight,1
+756,21,Female,High Fat,Smoker,Moderate,No,Yes,No,174,81,Urban,26.8,Overweight,1
+757,23,Female,High Fat,Non-smoker,Moderate,No,Yes,No,157,42,Rural,17.0,Underweight,1
+758,68,Female,Vegetarian,Non-smoker,Moderate,Yes,No,No,182,87,Urban,26.3,Overweight,1
+759,79,Male,Balanced,Smoker,High,Yes,Yes,No,151,67,Rural,29.4,Overweight,1
+760,74,Female,Balanced,Smoker,High,Yes,Yes,No,175,94,Urban,30.7,Obesity,1
+761,83,Female,High Fat,Smoker,High,Yes,Yes,No,170,63,Rural,21.8,Normal weight,1
+762,25,Male,High Fat,Non-smoker,High,Yes,Yes,No,189,59,Urban,16.5,Underweight,1
+763,43,Female,Vegetarian,Non-smoker,Low,No,Yes,Yes,153,67,Rural,28.6,Overweight,1
+764,68,Male,High Fat,Non-smoker,High,Yes,Yes,Yes,141,77,Urban,38.7,Obesity,1
+765,62,Female,Vegetarian,Non-smoker,Moderate,Yes,Yes,No,177,65,Urban,20.7,Normal weight,1
+766,61,Female,Balanced,Smoker,High,Yes,Yes,Yes,150,78,Rural,34.7,Obesity,1
+767,22,Male,Balanced,Smoker,Low,No,No,No,171,64,Rural,21.9,Normal weight,0
+768,87,Male,Vegetarian,Smoker,Moderate,No,Yes,Yes,176,70,Urban,22.6,Normal weight,1
+769,43,Female,High Fat,Smoker,High,No,Yes,No,168,103,Urban,36.5,Obesity,1
+770,85,Female,Balanced,Smoker,High,Yes,No,Yes,167,75,Rural,26.9,Overweight,1
+771,36,Female,High Fat,Smoker,High,No,Yes,No,169,76,Urban,26.6,Overweight,1
+772,37,Male,Balanced,Non-smoker,Moderate,No,No,No,173,47,Rural,15.7,Underweight,0
+773,29,Female,Vegetarian,Non-smoker,Moderate,No,No,Yes,170,90,Urban,31.1,Obesity,1
+774,64,Male,Vegetarian,Smoker,Low,Yes,Yes,No,152,85,Urban,36.8,Obesity,1
+775,18,Male,Vegetarian,Smoker,Moderate,No,No,No,183,59,Rural,17.6,Underweight,0
+776,31,Female,Balanced,Non-smoker,Moderate,Yes,Yes,No,165,85,Rural,31.2,Obesity,1
+777,81,Male,High Fat,Non-smoker,High,Yes,Yes,Yes,170,74,Rural,25.6,Overweight,1
+778,55,Female,High Fat,Non-smoker,Moderate,No,Yes,Yes,172,70,Urban,23.7,Normal weight,1
+779,54,Female,High Fat,Non-smoker,High,Yes,Yes,No,176,89,Urban,28.7,Overweight,1
+780,28,Female,Balanced,Smoker,High,No,No,No,175,62,Urban,20.2,Normal weight,0
+781,20,Female,Balanced,Smoker,Moderate,Yes,Yes,Yes,166,59,Rural,21.4,Normal weight,1
+782,50,Female,Balanced,Smoker,Low,No,No,Yes,165,73,Urban,26.8,Overweight,1
+783,23,Male,Balanced,Smoker,Low,No,Yes,No,169,77,Urban,27.0,Overweight,1
+784,67,Male,Balanced,Smoker,Moderate,No,Yes,No,176,84,Rural,27.1,Overweight,1
+785,27,Female,High Fat,Non-smoker,Low,Yes,Yes,No,153,67,Urban,28.6,Overweight,1
+786,22,Female,Balanced,Smoker,High,No,No,Yes,171,57,Urban,19.5,Normal weight,1
+787,40,Male,Balanced,Non-smoker,High,Yes,Yes,No,156,107,Rural,44.0,Obesity,1
+788,27,Male,High Fat,Smoker,Moderate,No,Yes,No,183,53,Rural,15.8,Underweight,1
+789,61,Male,Balanced,Smoker,Low,Yes,No,No,168,70,Rural,24.8,Normal weight,0
+790,19,Male,High Fat,Smoker,Low,Yes,Yes,No,160,81,Rural,31.6,Obesity,1
+791,30,Female,High Fat,Smoker,High,No,Yes,No,169,87,Rural,30.5,Obesity,1
+792,57,Female,Vegetarian,Smoker,Moderate,No,Yes,No,165,61,Rural,22.4,Normal weight,1
+793,19,Male,Vegetarian,Non-smoker,Low,No,Yes,No,163,41,Rural,15.4,Underweight,1
+794,82,Female,Vegetarian,Non-smoker,Moderate,No,Yes,Yes,146,61,Rural,28.6,Overweight,1
+795,80,Male,Vegetarian,Non-smoker,Low,No,Yes,No,154,82,Rural,34.6,Obesity,1
+796,34,Female,Balanced,Smoker,High,Yes,No,No,163,79,Urban,29.7,Overweight,1
+797,26,Male,Vegetarian,Smoker,High,No,No,No,148,80,Rural,36.5,Obesity,1
+798,32,Female,High Fat,Non-smoker,Moderate,No,Yes,Yes,159,80,Rural,31.6,Obesity,1
+799,41,Male,Balanced,Smoker,High,Yes,Yes,No,160,90,Urban,35.2,Obesity,1
+800,55,Male,Vegetarian,Smoker,Low,No,No,Yes,157,58,Rural,23.5,Normal weight,1
+801,52,Female,High Fat,Non-smoker,High,No,Yes,No,172,52,Urban,17.6,Underweight,1
+802,66,Male,Balanced,Smoker,Moderate,Yes,Yes,Yes,156,75,Urban,30.8,Obesity,1
+803,86,Female,Balanced,Non-smoker,Moderate,No,Yes,No,165,54,Rural,19.8,Normal weight,1
+804,79,Female,Vegetarian,Smoker,Moderate,No,No,Yes,161,51,Urban,19.7,Normal weight,1
+805,77,Male,Balanced,Non-smoker,Low,No,Yes,No,163,88,Rural,33.1,Obesity,1
+806,67,Female,High Fat,Smoker,Low,Yes,Yes,No,181,73,Rural,22.3,Normal weight,1
+807,26,Female,Balanced,Smoker,Low,No,No,Yes,166,70,Urban,25.4,Overweight,1
+808,51,Female,High Fat,Non-smoker,Low,Yes,Yes,No,168,70,Urban,24.8,Normal weight,1
+809,52,Female,Balanced,Smoker,Low,No,Yes,Yes,157,68,Urban,27.6,Overweight,1
+810,18,Female,Vegetarian,Smoker,High,Yes,No,No,171,88,Rural,30.1,Obesity,1
+811,57,Male,High Fat,Non-smoker,Low,No,Yes,Yes,170,47,Rural,16.3,Underweight,1
+812,81,Female,Balanced,Smoker,Low,Yes,No,Yes,169,46,Urban,16.1,Underweight,1
+813,39,Female,Balanced,Non-smoker,High,Yes,No,No,152,55,Rural,23.8,Normal weight,0
+814,77,Female,Balanced,Smoker,Low,Yes,Yes,Yes,159,74,Rural,29.3,Overweight,1
+815,81,Female,High Fat,Smoker,Moderate,Yes,Yes,Yes,179,97,Urban,30.3,Obesity,1
+816,89,Female,High Fat,Smoker,Low,Yes,Yes,No,158,83,Urban,33.2,Obesity,1
+817,28,Male,High Fat,Smoker,Low,Yes,Yes,No,180,78,Urban,24.1,Normal weight,1
+818,31,Female,Vegetarian,Non-smoker,Moderate,No,No,Yes,159,68,Urban,26.9,Overweight,1
+819,77,Male,Vegetarian,Smoker,Moderate,No,Yes,No,166,50,Urban,18.1,Underweight,1
+820,47,Male,High Fat,Non-smoker,Moderate,Yes,Yes,No,163,77,Urban,29.0,Overweight,1
+821,52,Male,Balanced,Smoker,Moderate,Yes,Yes,Yes,156,100,Urban,41.1,Obesity,1
+822,54,Male,Vegetarian,Smoker,Low,Yes,No,No,156,66,Urban,27.1,Overweight,1
+823,22,Female,High Fat,Smoker,Moderate,Yes,Yes,No,157,61,Urban,24.7,Normal weight,1
+824,43,Male,Balanced,Smoker,Moderate,No,Yes,No,166,66,Urban,24.0,Normal weight,1
+825,79,Male,Vegetarian,Non-smoker,High,Yes,Yes,Yes,173,78,Rural,26.1,Overweight,1
+826,21,Female,Balanced,Non-smoker,Moderate,No,Yes,No,165,71,Rural,26.1,Overweight,1
+827,59,Female,Balanced,Non-smoker,Moderate,No,Yes,Yes,164,83,Urban,30.9,Obesity,1
+828,35,Female,Balanced,Non-smoker,High,Yes,Yes,Yes,177,69,Rural,22.0,Normal weight,1
+829,57,Male,Balanced,Smoker,High,Yes,Yes,No,165,66,Rural,24.2,Normal weight,1
+830,89,Female,Vegetarian,Non-smoker,Low,No,No,No,159,73,Rural,28.9,Overweight,1
+831,56,Female,Vegetarian,Non-smoker,High,No,No,Yes,155,61,Rural,25.4,Overweight,1
+832,31,Male,Vegetarian,Smoker,Low,Yes,Yes,No,177,96,Rural,30.6,Obesity,1
+833,49,Female,High Fat,Smoker,High,Yes,Yes,Yes,161,82,Rural,31.6,Obesity,1
+834,68,Female,Vegetarian,Smoker,High,Yes,No,Yes,159,53,Urban,21.0,Normal weight,1
+835,55,Female,Balanced,Smoker,Low,No,No,No,158,58,Urban,23.2,Normal weight,0
+836,40,Female,Vegetarian,Non-smoker,High,No,No,No,177,78,Rural,24.9,Normal weight,0
+837,80,Male,Balanced,Non-smoker,Low,Yes,Yes,No,159,72,Rural,28.5,Overweight,1
+838,32,Female,High Fat,Smoker,High,No,Yes,Yes,174,74,Urban,24.4,Normal weight,1
+839,42,Female,Balanced,Smoker,Moderate,No,No,Yes,162,67,Rural,25.5,Overweight,1
+840,34,Male,Balanced,Smoker,High,Yes,No,No,152,76,Rural,32.9,Obesity,1
+841,83,Female,Balanced,Non-smoker,Low,Yes,No,Yes,161,67,Rural,25.8,Overweight,1
+842,70,Male,High Fat,Non-smoker,High,No,Yes,No,164,78,Rural,29.0,Overweight,1
+843,68,Female,Vegetarian,Smoker,Low,No,No,No,163,81,Rural,30.5,Obesity,1
+844,56,Male,Vegetarian,Smoker,Low,Yes,Yes,Yes,163,94,Urban,35.4,Obesity,1
+845,68,Male,High Fat,Non-smoker,Moderate,Yes,Yes,Yes,161,62,Urban,23.9,Normal weight,1
+846,87,Male,Balanced,Smoker,Moderate,Yes,Yes,Yes,157,69,Rural,28.0,Overweight,1
+847,23,Male,Vegetarian,Smoker,Low,Yes,No,No,165,51,Urban,18.7,Normal weight,0
+848,84,Female,High Fat,Non-smoker,High,Yes,Yes,No,170,97,Rural,33.6,Obesity,1
+849,24,Male,Vegetarian,Smoker,Low,No,Yes,No,150,40,Rural,17.8,Underweight,1
+850,68,Female,High Fat,Non-smoker,Low,No,Yes,Yes,177,95,Rural,30.3,Obesity,1
+851,89,Male,Balanced,Smoker,High,No,Yes,Yes,128,71,Rural,43.3,Obesity,1
+852,59,Male,Vegetarian,Smoker,High,No,Yes,Yes,165,76,Rural,27.9,Overweight,1
+853,81,Male,High Fat,Non-smoker,High,Yes,Yes,No,169,67,Rural,23.5,Normal weight,1
+854,32,Female,Vegetarian,Non-smoker,High,Yes,No,Yes,158,70,Rural,28.0,Overweight,1
+855,46,Male,Vegetarian,Smoker,Low,Yes,No,No,143,78,Rural,38.1,Obesity,1
+856,50,Female,Vegetarian,Non-smoker,Low,No,Yes,Yes,164,45,Rural,16.7,Underweight,1
+857,44,Female,Vegetarian,Smoker,Moderate,No,No,Yes,166,60,Urban,21.8,Normal weight,1
+858,53,Female,High Fat,Smoker,Low,No,Yes,No,153,57,Rural,24.3,Normal weight,1
+859,46,Female,Balanced,Non-smoker,High,Yes,No,Yes,156,76,Urban,31.2,Obesity,1
+860,55,Female,High Fat,Smoker,Moderate,No,Yes,No,174,70,Urban,23.1,Normal weight,1
+861,74,Female,High Fat,Smoker,High,Yes,Yes,Yes,166,79,Rural,28.7,Overweight,1
+862,44,Female,High Fat,Non-smoker,Low,Yes,Yes,No,149,72,Urban,32.4,Obesity,1
+863,72,Female,Balanced,Non-smoker,Moderate,Yes,No,No,169,85,Rural,29.8,Overweight,1
+864,50,Female,Vegetarian,Smoker,High,Yes,Yes,Yes,155,58,Rural,24.1,Normal weight,1
+865,85,Male,Vegetarian,Non-smoker,Moderate,Yes,No,No,157,70,Rural,28.4,Overweight,1
+866,83,Male,Vegetarian,Non-smoker,Moderate,Yes,Yes,No,166,86,Rural,31.2,Obesity,1
+867,27,Male,Balanced,Non-smoker,Low,No,No,No,166,83,Urban,30.1,Obesity,1
+868,22,Male,Vegetarian,Non-smoker,High,Yes,Yes,No,160,47,Urban,18.4,Underweight,1
+869,55,Male,Balanced,Smoker,Moderate,Yes,Yes,Yes,159,54,Rural,21.4,Normal weight,1
+870,30,Female,Vegetarian,Smoker,Moderate,No,No,Yes,162,68,Urban,25.9,Overweight,1
+871,48,Female,Vegetarian,Smoker,High,Yes,No,No,157,66,Urban,26.8,Overweight,1
+872,64,Female,High Fat,Non-smoker,Moderate,No,Yes,No,175,69,Urban,22.5,Normal weight,1
+873,69,Female,Balanced,Non-smoker,Moderate,No,Yes,Yes,149,81,Rural,36.5,Obesity,1
+874,73,Female,High Fat,Non-smoker,Moderate,No,Yes,No,162,74,Urban,28.2,Overweight,1
+875,32,Female,High Fat,Non-smoker,High,Yes,Yes,No,150,75,Urban,33.3,Obesity,1
+876,46,Female,High Fat,Non-smoker,High,Yes,Yes,No,174,80,Urban,26.4,Overweight,1
+877,25,Male,Balanced,Non-smoker,High,No,No,No,162,86,Rural,32.8,Obesity,1
+878,22,Male,Balanced,Non-smoker,High,Yes,Yes,No,154,24,Urban,10.1,Underweight,1
+879,46,Male,Vegetarian,Smoker,Low,Yes,Yes,No,171,64,Urban,21.9,Normal weight,1
+880,64,Male,High Fat,Smoker,Moderate,No,Yes,Yes,142,56,Rural,27.8,Overweight,1
+881,85,Female,Vegetarian,Non-smoker,High,No,Yes,Yes,167,77,Urban,27.6,Overweight,1
+882,62,Female,High Fat,Non-smoker,Moderate,Yes,Yes,No,176,63,Rural,20.3,Normal weight,1
+883,19,Female,Balanced,Non-smoker,Moderate,No,No,No,166,71,Rural,25.8,Overweight,1
+884,44,Male,Balanced,Smoker,Low,No,Yes,No,159,82,Rural,32.4,Obesity,1
+885,53,Female,Balanced,Smoker,High,No,Yes,Yes,152,60,Rural,26.0,Overweight,1
+886,53,Female,High Fat,Non-smoker,High,Yes,Yes,No,175,75,Rural,24.5,Normal weight,1
+887,43,Female,Balanced,Non-smoker,Moderate,Yes,No,No,174,93,Rural,30.7,Obesity,1
+888,60,Male,High Fat,Smoker,High,Yes,Yes,No,158,82,Urban,32.8,Obesity,1
+889,44,Female,Vegetarian,Smoker,Moderate,No,Yes,No,158,46,Rural,18.4,Underweight,1
+890,86,Male,High Fat,Smoker,Moderate,Yes,Yes,No,176,65,Urban,21.0,Normal weight,1
+891,37,Male,Vegetarian,Smoker,Low,No,Yes,No,170,75,Urban,26.0,Overweight,1
+892,28,Male,High Fat,Non-smoker,Low,Yes,Yes,No,147,78,Rural,36.1,Obesity,1
+893,55,Male,Vegetarian,Smoker,Low,Yes,Yes,No,163,66,Urban,24.8,Normal weight,1
+894,23,Female,Balanced,Smoker,Moderate,No,No,No,162,60,Urban,22.9,Normal weight,0
+895,89,Male,Vegetarian,Non-smoker,High,Yes,Yes,Yes,167,71,Urban,25.5,Overweight,1
+896,40,Male,Balanced,Smoker,Low,No,Yes,No,165,53,Rural,19.5,Normal weight,1
+897,64,Female,Balanced,Smoker,High,Yes,Yes,No,159,86,Urban,34.0,Obesity,1
+898,63,Female,Vegetarian,Smoker,Low,Yes,No,No,166,98,Urban,35.6,Obesity,1
+899,29,Male,High Fat,Non-smoker,Low,No,Yes,No,160,75,Rural,29.3,Overweight,1
+900,30,Female,High Fat,Smoker,Moderate,No,Yes,Yes,199,66,Urban,16.7,Underweight,1
+901,79,Male,High Fat,Non-smoker,Low,No,Yes,No,166,84,Urban,30.5,Obesity,1
+902,77,Male,High Fat,Non-smoker,Low,Yes,Yes,No,164,81,Urban,30.1,Obesity,1
+903,60,Male,High Fat,Smoker,Moderate,Yes,Yes,Yes,183,65,Rural,19.4,Normal weight,1
+904,85,Male,Balanced,Smoker,High,Yes,No,No,151,69,Urban,30.3,Obesity,1
+905,22,Female,High Fat,Smoker,Low,No,Yes,No,163,60,Urban,22.6,Normal weight,1
+906,54,Male,Balanced,Smoker,Moderate,No,Yes,No,155,72,Rural,30.0,Overweight,1
+907,89,Female,Balanced,Non-smoker,Low,No,Yes,No,171,74,Rural,25.3,Overweight,1
+908,48,Female,Balanced,Smoker,Moderate,Yes,Yes,No,160,58,Rural,22.7,Normal weight,1
+909,26,Female,Vegetarian,Smoker,High,Yes,Yes,No,170,53,Urban,18.3,Underweight,1
+910,68,Female,Vegetarian,Smoker,High,No,Yes,Yes,170,50,Rural,17.3,Underweight,1
+911,46,Male,Balanced,Non-smoker,Moderate,Yes,Yes,No,172,76,Rural,25.7,Overweight,1
+912,57,Female,Vegetarian,Smoker,Moderate,No,No,No,170,69,Rural,23.9,Normal weight,0
+913,58,Male,High Fat,Smoker,Moderate,Yes,Yes,Yes,162,68,Urban,25.9,Overweight,1
+914,28,Female,High Fat,Non-smoker,High,Yes,Yes,No,151,76,Rural,33.3,Obesity,1
+915,40,Female,Balanced,Non-smoker,Low,No,No,Yes,175,56,Rural,18.3,Underweight,1
+916,18,Male,High Fat,Smoker,High,Yes,Yes,No,179,53,Rural,16.5,Underweight,1
+917,63,Male,Balanced,Smoker,Moderate,Yes,Yes,No,155,73,Rural,30.4,Obesity,1
+918,38,Male,Balanced,Smoker,Moderate,No,No,No,172,44,Rural,14.9,Underweight,0
+919,53,Female,High Fat,Smoker,High,No,Yes,No,153,66,Urban,28.2,Overweight,1
+920,71,Female,Vegetarian,Smoker,Moderate,Yes,Yes,Yes,167,106,Urban,38.0,Obesity,1
+921,74,Male,High Fat,Non-smoker,High,No,Yes,No,169,49,Rural,17.2,Underweight,1
+922,18,Male,High Fat,Non-smoker,Moderate,Yes,Yes,No,160,63,Rural,24.6,Normal weight,1
+923,80,Male,Balanced,Smoker,Low,No,Yes,No,165,38,Rural,14.0,Underweight,1
+924,71,Male,Balanced,Smoker,Low,Yes,Yes,Yes,173,66,Urban,22.1,Normal weight,1
+925,72,Female,Balanced,Non-smoker,Moderate,Yes,No,No,163,99,Urban,37.3,Obesity,1
+926,57,Male,Balanced,Smoker,High,No,Yes,No,158,77,Urban,30.8,Obesity,1
+927,32,Male,Vegetarian,Smoker,Low,Yes,No,No,152,60,Urban,26.0,Overweight,1
+928,38,Male,Vegetarian,Smoker,High,Yes,No,No,161,102,Rural,39.4,Obesity,1
+929,64,Male,Vegetarian,Smoker,Moderate,No,Yes,Yes,153,43,Rural,18.4,Underweight,1
+930,70,Female,Balanced,Smoker,High,No,Yes,Yes,161,76,Rural,29.3,Overweight,1
+931,26,Male,Balanced,Non-smoker,Low,Yes,Yes,No,160,70,Rural,27.3,Overweight,1
+932,69,Female,Balanced,Smoker,High,No,No,Yes,173,66,Urban,22.1,Normal weight,1
+933,74,Male,Vegetarian,Smoker,High,No,Yes,Yes,165,82,Rural,30.1,Obesity,1
+934,43,Male,Balanced,Smoker,Moderate,Yes,Yes,No,190,52,Urban,14.4,Underweight,1
+935,58,Female,High Fat,Non-smoker,Moderate,Yes,Yes,No,144,74,Urban,35.7,Obesity,1
+936,52,Male,High Fat,Non-smoker,Moderate,No,Yes,No,168,72,Rural,25.5,Overweight,1
+937,80,Female,Balanced,Non-smoker,Low,No,Yes,No,160,56,Urban,21.9,Normal weight,1
+938,42,Female,High Fat,Non-smoker,Low,No,Yes,No,155,99,Urban,41.2,Obesity,1
+939,55,Male,High Fat,Smoker,Moderate,Yes,Yes,No,164,67,Rural,24.9,Overweight,1
+940,19,Female,Vegetarian,Non-smoker,Moderate,Yes,No,No,163,67,Urban,25.2,Overweight,1
+941,24,Female,Balanced,Smoker,Low,Yes,Yes,Yes,175,54,Urban,17.6,Underweight,1
+942,51,Female,Balanced,Smoker,Low,Yes,Yes,No,165,67,Rural,24.6,Normal weight,1
+943,34,Female,Vegetarian,Non-smoker,Low,Yes,No,No,158,105,Urban,42.1,Obesity,1
+944,60,Female,High Fat,Non-smoker,Low,Yes,Yes,Yes,168,66,Urban,23.4,Normal weight,1
+945,76,Female,High Fat,Non-smoker,Moderate,Yes,Yes,Yes,162,77,Rural,29.3,Overweight,1
+946,68,Female,Balanced,Non-smoker,Low,No,Yes,No,153,84,Urban,35.9,Obesity,1
+947,71,Female,High Fat,Non-smoker,Moderate,No,Yes,No,162,67,Rural,25.5,Overweight,1
+948,41,Male,Vegetarian,Smoker,High,Yes,Yes,No,167,63,Urban,22.6,Normal weight,1
+949,42,Male,Vegetarian,Non-smoker,High,Yes,No,No,165,77,Urban,28.3,Overweight,1
+950,88,Female,Balanced,Non-smoker,Low,Yes,No,No,168,66,Rural,23.4,Normal weight,1
+951,69,Male,Vegetarian,Non-smoker,High,No,No,No,159,65,Rural,25.7,Overweight,1
+952,87,Female,Vegetarian,Smoker,High,Yes,Yes,No,168,84,Urban,29.8,Overweight,1
+953,50,Female,Balanced,Non-smoker,High,No,Yes,No,166,68,Rural,24.7,Normal weight,1
+954,66,Male,Vegetarian,Smoker,Low,No,Yes,No,166,88,Urban,31.9,Obesity,1
+955,46,Female,Vegetarian,Non-smoker,Low,No,No,Yes,165,68,Rural,25.0,Overweight,1
+956,80,Female,Vegetarian,Non-smoker,High,No,Yes,Yes,186,50,Urban,14.5,Underweight,1
+957,39,Female,High Fat,Smoker,Moderate,No,Yes,No,176,18,Urban,5.8,Underweight,1
+958,43,Female,Balanced,Non-smoker,High,Yes,No,No,167,42,Urban,15.1,Underweight,0
+959,45,Male,Balanced,Smoker,Low,Yes,No,No,156,45,Urban,18.5,Underweight,0
+960,66,Female,Balanced,Smoker,Low,No,Yes,No,162,73,Urban,27.8,Overweight,1
+961,88,Female,High Fat,Smoker,Low,Yes,Yes,No,181,55,Rural,16.8,Underweight,1
+962,66,Female,High Fat,Non-smoker,High,No,Yes,No,159,40,Rural,15.8,Underweight,1
+963,37,Male,Balanced,Non-smoker,Moderate,No,Yes,No,163,68,Urban,25.6,Overweight,1
+964,80,Female,High Fat,Non-smoker,Low,Yes,Yes,Yes,162,53,Urban,20.2,Normal weight,1
+965,78,Male,Balanced,Smoker,Low,Yes,Yes,No,168,76,Rural,26.9,Overweight,1
+966,66,Male,High Fat,Non-smoker,High,Yes,Yes,Yes,160,76,Rural,29.7,Overweight,1
+967,88,Female,Vegetarian,Smoker,Moderate,Yes,Yes,Yes,166,78,Rural,28.3,Overweight,1
+968,18,Female,Vegetarian,Non-smoker,High,Yes,No,No,160,31,Rural,12.1,Underweight,0
+969,30,Male,Balanced,Smoker,Low,No,Yes,No,178,70,Rural,22.1,Normal weight,1
+970,68,Female,High Fat,Smoker,Moderate,Yes,Yes,No,158,68,Urban,27.2,Overweight,1
+971,73,Male,High Fat,Smoker,Moderate,Yes,Yes,No,174,51,Urban,16.8,Underweight,1
+972,79,Male,Vegetarian,Non-smoker,Low,Yes,No,No,159,37,Rural,14.6,Underweight,1
+973,49,Female,Vegetarian,Smoker,Moderate,No,No,Yes,156,68,Rural,27.9,Overweight,1
+974,47,Female,High Fat,Smoker,Moderate,Yes,Yes,No,157,85,Rural,34.5,Obesity,1
+975,46,Male,High Fat,Smoker,High,No,Yes,No,147,31,Rural,14.3,Underweight,1
+976,66,Male,High Fat,Smoker,Low,Yes,Yes,No,169,57,Rural,20.0,Normal weight,1
+977,62,Male,High Fat,Smoker,Low,Yes,Yes,Yes,153,71,Rural,30.3,Obesity,1
+978,47,Male,High Fat,Smoker,Low,No,Yes,Yes,161,86,Rural,33.2,Obesity,1
+979,33,Female,High Fat,Non-smoker,Low,Yes,Yes,No,172,65,Rural,22.0,Normal weight,1
+980,57,Female,Balanced,Non-smoker,Low,Yes,No,No,172,98,Rural,33.1,Obesity,1
+981,36,Female,High Fat,Smoker,Moderate,No,Yes,No,150,43,Urban,19.1,Normal weight,1
+982,35,Female,Vegetarian,Non-smoker,High,Yes,Yes,No,168,39,Rural,13.8,Underweight,1
+983,18,Female,Balanced,Non-smoker,Low,No,Yes,No,176,85,Rural,27.4,Overweight,1
+984,64,Male,High Fat,Smoker,High,No,Yes,Yes,158,34,Urban,13.6,Underweight,1
+985,83,Female,Vegetarian,Smoker,High,No,No,No,170,76,Urban,26.3,Overweight,1
+986,55,Female,Balanced,Smoker,Moderate,No,No,No,153,65,Urban,27.8,Overweight,1
+987,68,Female,Vegetarian,Non-smoker,Low,No,Yes,No,168,56,Rural,19.8,Normal weight,1
+988,80,Female,High Fat,Smoker,Moderate,Yes,Yes,Yes,166,63,Rural,22.9,Normal weight,1
+989,21,Female,High Fat,Non-smoker,Low,Yes,Yes,No,171,50,Rural,17.1,Underweight,1
+990,18,Male,High Fat,Smoker,Moderate,Yes,Yes,No,170,65,Rural,22.5,Normal weight,1
+991,25,Male,High Fat,Non-smoker,High,No,Yes,Yes,151,70,Urban,30.7,Obesity,1
+992,46,Male,Balanced,Smoker,Low,No,Yes,No,166,63,Rural,22.9,Normal weight,1
+993,72,Female,Balanced,Smoker,High,No,Yes,No,179,61,Rural,19.0,Normal weight,1
+994,20,Male,Vegetarian,Non-smoker,High,No,No,No,143,73,Urban,35.7,Obesity,1
+995,49,Male,High Fat,Non-smoker,Moderate,Yes,Yes,No,174,94,Rural,31.0,Obesity,1
+996,27,Female,Vegetarian,Non-smoker,Low,Yes,No,Yes,181,66,Rural,20.1,Normal weight,1
+997,51,Female,Balanced,Non-smoker,High,No,No,No,150,82,Rural,36.4,Obesity,1
+998,72,Female,High Fat,Non-smoker,Moderate,No,Yes,Yes,158,55,Rural,22.0,Normal weight,1
+999,49,Male,High Fat,Non-smoker,Low,Yes,Yes,No,170,49,Urban,17.0,Underweight,1
+1000,67,Male,Balanced,Smoker,Low,No,Yes,Yes,156,76,Urban,31.2,Obesity,1
